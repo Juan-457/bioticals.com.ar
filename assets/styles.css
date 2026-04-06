@@ -278,6 +278,38 @@ h1 span {
   box-shadow: 0 0 0 6px rgba(123, 211, 137, 0.18);
 }
 
+.hero-product {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 136px minmax(0, 1fr);
+  gap: 18px;
+  align-items: center;
+  padding: 18px;
+  border-radius: 26px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(16, 33, 24, 0.08);
+}
+
+.hero-product-image {
+  width: 100%;
+  max-width: 136px;
+  display: block;
+  object-fit: contain;
+  filter: drop-shadow(0 16px 24px rgba(15, 61, 46, 0.16));
+}
+
+.hero-product-copy strong {
+  display: block;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}
+
+.hero-product-copy span {
+  color: var(--muted);
+  line-height: 1.45;
+}
+
 .lead-card {
   position: sticky;
   top: 104px;
@@ -643,6 +675,7 @@ h1 span {
 
   .hero-grid,
   .hero-proof,
+  .hero-product,
   .logos-grid,
   .validation-grid,
   .cards-grid,
