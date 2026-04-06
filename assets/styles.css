@@ -404,6 +404,10 @@ h1 span {
   border: 1px solid rgba(16, 33, 24, 0.08);
 }
 
+.validation-shot-link {
+  display: block;
+}
+
 .validation-mini-card {
   margin-top: 16px;
   display: grid;
