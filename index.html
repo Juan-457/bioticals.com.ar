@@ -1,294 +1,330 @@
 <!DOCTYPE html>
-
-<html lang="es"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Bioticals | Biotecnología para una agricultura sostenible</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
-<link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
-<link href="favicon-48x48.png" rel="icon" sizes="48x48" type="image/png"/>
-<link href="favicon-64x64.png" rel="icon" sizes="64x64" type="image/png"/>
-<link href="favicon-128x128.png" rel="icon" sizes="128x128" type="image/png"/>
-<link href="favicon-180x180.png" rel="apple-touch-icon" sizes="180x180"/>
-<link href="favicon-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
-<link href="favicon-256x256.png" rel="icon" sizes="256x256" type="image/png"/>
-<link href="favicon-512x512.png" rel="icon" sizes="512x512" type="image/png"/>
-
-<script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    colors: {
-                        "primary": "#13ec5b",
-                        "secondary": "#0a4a24",
-                        "accent": "#0066cc",
-                        "background-light": "#f6f8f6",
-                        "background-dark": "#102216",
-                    },
-                    fontFamily: {
-                        "display": ["Space Grotesk", "sans-serif"]
-                    },
-                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
-                },
-            },
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="index,follow" />
+  <meta name="description" content="Landing de conversión para BIOT!CA.N2 de Bioticals. Captá productores y asesores interesados en reducir nitrógeno sintético sin resignar rendimiento." />
+  <meta name="theme-color" content="#0f3d2e" />
+  <meta name="color-scheme" content="light" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="BIOT!CA.N2 | Bioinsumo para mejorar eficiencia de nitrógeno" />
+  <meta property="og:description" content="Solicitá ficha técnica, disponibilidad por zona y asesoramiento comercial para BIOT!CA.N2." />
+  <meta property="og:url" content="https://bioticals.com.ar/biotica-n2" />
+  <meta property="og:site_name" content="Bioticals" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>BIOT!CA.N2 | Landing de leads para Bioticals</title>
+  <link rel="canonical" href="https://bioticals.com.ar/biotica-n2" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script>
+    window.BIOTICALS_TRACKING = {
+      gtmId: "",
+      ga4Id: "",
+      googleAdsId: "",
+      adsLeadLabel: "",
+      formEndpoint: "https://formsubmit.co/info@bioticals.com.ar",
+      whatsappNumber: "5491135338229"
+    };
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "BIOT!CA.N2",
+    "brand": {
+      "@type": "Brand",
+      "name": "Bioticals"
+    },
+    "category": "Bioinsumo / Biofertilizante",
+    "description": "Tecnología biológica basada en bacterias endófitas con foco en eficiencia de nitrógeno y productividad agrícola.",
+    "url": "https://bioticals.com.ar/biotica-n2",
+    "manufacturer": {
+      "@type": "Organization",
+      "name": "Bioticals",
+      "url": "https://www.bioticals.com.ar/"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Qué resuelve BIOT!CA.N2?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Está orientado a mejorar la eficiencia del nitrógeno en cultivo y a reducir dependencia de fertilización sintética dentro de una estrategia agronómica más eficiente."
         }
-    </script>
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cómo se aplica?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Según la información institucional de Bioticals, puede utilizarse en tratamiento de semillas, aplicación en surco o aplicación foliar, según cultivo y planteo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué recibe un lead al dejar sus datos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Recibe contacto comercial, disponibilidad por zona, ficha técnica y orientación inicial para evaluar encaje del producto en su esquema productivo."
+        }
+      }
+    ]
+  }
+  </script>
 </head>
-<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100">
-<div class="relative flex min-h-screen flex-col">
-<!-- Top Navigation Bar -->
-<header class="sticky top-0 z-50 w-full bg-white/95 dark:bg-background-dark/95 backdrop-blur-sm border-b border-slate-200 dark:border-slate-800">
-<div class="container mx-auto px-6 py-4 flex items-center justify-between">
-<div class="flex items-center gap-12">
-<div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-primary text-4xl">eco</span>
-<h1 class="text-2xl font-bold tracking-tight text-secondary dark:text-primary">Bioticals</h1>
-</div>
-<nav class="hidden md:flex items-center gap-8">
-<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Empresa</a>
-<div class="group relative">
-<button class="flex items-center gap-1 text-sm font-semibold hover:text-primary transition-colors">
-                                Líneas de Productos
-                                <span class="material-symbols-outlined text-sm">keyboard_arrow_down</span>
-</button>
-<div class="absolute top-full left-0 hidden group-hover:block w-48 bg-white dark:bg-slate-900 shadow-xl border border-slate-100 dark:border-slate-800 rounded-lg mt-2 py-2">
-<a class="block px-4 py-2 text-sm hover:bg-primary/10" href="#">Inoculantes</a>
-<a class="block px-4 py-2 text-sm hover:bg-primary/10" href="#">Bioestimulantes</a>
-<a class="block px-4 py-2 text-sm hover:bg-primary/10" href="#">Coadyuvantes</a>
-<a class="block px-4 py-2 text-sm hover:bg-primary/10" href="#">Curasemillas</a>
-</div>
-</div>
-<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">I+D+i</a>
-<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Contacto</a>
-</nav>
-</div>
-<div class="flex items-center gap-6">
-<div class="hidden lg:flex items-center bg-slate-100 dark:bg-slate-800 rounded-full px-4 py-1.5 border border-transparent focus-within:border-primary transition-all">
-<span class="material-symbols-outlined text-slate-400 text-xl">search</span>
-<input class="bg-transparent border-none focus:ring-0 text-sm w-40 placeholder:text-slate-400" placeholder="Buscar productos..." type="text"/>
-</div>
-<button class="flex items-center gap-1 text-sm font-semibold">
-<span class="material-symbols-outlined text-xl">language</span>
-<span>ES</span>
-</button>
-</div>
-</div>
-</header>
-<!-- Hero Section -->
-<section class="relative h-[600px] w-full flex items-center overflow-hidden">
-<div class="absolute inset-0 z-0">
-<div class="absolute inset-0 bg-gradient-to-r from-secondary/40 to-transparent z-10"></div>
-<video aria-label="Campos de cultivo saludables al amanecer" autoplay class="w-full h-full object-cover" loop muted playsinline>
-<source src="hero.mp4" type="video/mp4"/>
-</video>
-</div>
-<div class="container mx-auto px-6 relative z-20">
-<div class="max-w-2xl text-white">
-<div class="inline-flex items-center gap-2 bg-primary/20 backdrop-blur-md border border-primary/30 px-4 py-2 rounded-full mb-6">
-<span class="material-symbols-outlined text-primary text-sm">verified</span>
-<span class="text-sm font-medium tracking-wide">Innovación Biotecnológica Argentina</span>
-</div>
-<h2 class="text-5xl md:text-7xl font-bold leading-[1.1] mb-6">Bio-tecnología para una agricultura sostenible</h2>
-<p class="text-lg md:text-xl text-slate-100 mb-10 leading-relaxed opacity-90">
-                        Desarrollamos soluciones científicas que potencian el rendimiento de tus cultivos respetando el equilibrio del ecosistema.
-                    </p>
-<div class="flex flex-wrap gap-4">
-<button class="bg-primary hover:bg-primary/90 text-secondary font-bold px-8 py-4 rounded-lg flex items-center gap-2 transition-all">
-                            Conocé nuestras soluciones
-                            <span class="material-symbols-outlined">arrow_forward</span>
-</button>
-<button class="bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white font-bold px-8 py-4 rounded-lg transition-all">
-                            Sobre Bioticals
-                        </button>
-</div>
-</div>
-</div>
-</section>
-<!-- Product Categories Grid -->
-<section class="py-24 bg-white dark:bg-background-dark">
-<div class="container mx-auto px-6">
-<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
-<div class="max-w-xl">
-<h3 class="text-primary font-bold tracking-widest uppercase text-sm mb-4">Nuestras Líneas</h3>
-<h2 class="text-4xl font-bold text-secondary dark:text-slate-100">Soluciones biológicas integrales</h2>
-</div>
-<p class="text-slate-600 dark:text-slate-400 max-w-sm">
-                        Potenciamos cada etapa del ciclo de cultivo con tecnología de última generación.
-                    </p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-<!-- Category Card 1 -->
-<div class="group cursor-pointer">
-<div class="relative h-64 overflow-hidden rounded-xl mb-6 shadow-lg">
-<img alt="Inoculantes" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Microscopic view of beneficial bacteria" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3-Hs5gGGKBBZ_AIyXNVBZuaSRhmT5Uu-Wt_Z4LrYDHlSTcmc4o-7z5U4PWWEOHV8LK4TdPVup5lU8VOuYEX20bEXzqFPvVBUVzFqqLw-bnaApkgxKXH1Ats9Z8nyHNmd1fUkCNjuP1TpHxio2whRc6csET6XRyulzVFQyCvb07BY7eQWvoTaHFOhkAcdbvPF--R2Q96EloXMuXdwu_qAUsayVkxdcoCCvEF_lBTfp7BSwmiQ_6ANwFgnPJljoGncLC7YMuUFFbfZm"/>
-<div class="absolute inset-0 bg-secondary/40 group-hover:bg-secondary/20 transition-colors"></div>
-<div class="absolute bottom-6 left-6 text-white">
-<span class="material-symbols-outlined text-4xl mb-2">microbiology</span>
-</div>
-</div>
-<h4 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Inoculantes</h4>
-<p class="text-slate-600 dark:text-slate-400 text-sm">Fijación biológica de nitrógeno y promoción de crecimiento radicular.</p>
-</div>
-<!-- Category Card 2 -->
-<div class="group cursor-pointer">
-<div class="relative h-64 overflow-hidden rounded-xl mb-6 shadow-lg">
-<img alt="Bioestimulantes" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Plant growing from laboratory soil" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAC_pVmf1LIXfhhuVHpIbYw1cYnCKHuiDOvw3vAXfhfx_Ge_I2og8xOa7MOGNKVj51FDhMXlGbUNrJr7cQJ22dJpf01JvKp0fe4HtI5wtMTCnqXP49FE2BvCG9T8mqzHMuRCD0GUUz6U7ClDJ3fCwZBp8r5YWvJAPU9qhJ5TK-IemHn0ipe4icZnLEEo6dQOMlECdGK2TJHlqZdomJBFX1mNn7WXhvMPKHOLFDAdVdd6lKRwjV6ohZP3qIrEiRB893HDSJ2wxfj6Iiq"/>
-<div class="absolute inset-0 bg-secondary/40 group-hover:bg-secondary/20 transition-colors"></div>
-<div class="absolute bottom-6 left-6 text-white">
-<span class="material-symbols-outlined text-4xl mb-2">bolt</span>
-</div>
-</div>
-<h4 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Bioestimulantes</h4>
-<p class="text-slate-600 dark:text-slate-400 text-sm">Optimizan procesos metabólicos para superar situaciones de estrés hídrico o térmico.</p>
-</div>
-<!-- Category Card 3 -->
-<div class="group cursor-pointer">
-<div class="relative h-64 overflow-hidden rounded-xl mb-6 shadow-lg">
-<img alt="Coadyuvantes" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Water drops on a green leaf surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8cbjyk7b-XLEe3d8_yVtMtpDAFBay8Yc4yk1KmsClCvlEFAp0NWHn8o98jqYUSm7gd1nZmm3sXFl6RRp6o6gkUBbwSufkRyw_88HQzZM2_myFC6mHb9JPeAgqGHLGOfSeLeUzuzTMUHB0DmM5-r4OvajQvdM5W0NHLfsLUgDg8TYNbRNVQ0fjTmBBPRgAAV03CayeK2DfewzbbQhM1ZJaqUcE4vOO0zHpeyTPbZcVxlDW8CPx2CKQIW91rNnC3lmGz_tJzUaGzcTK"/>
-<div class="absolute inset-0 bg-secondary/40 group-hover:bg-secondary/20 transition-colors"></div>
-<div class="absolute bottom-6 left-6 text-white">
-<span class="material-symbols-outlined text-4xl mb-2">water_drop</span>
-</div>
-</div>
-<h4 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Coadyuvantes</h4>
-<p class="text-slate-600 dark:text-slate-400 text-sm">Mejoran la eficiencia de aplicación y penetración de fitosanitarios.</p>
-</div>
-<!-- Category Card 4 -->
-<div class="group cursor-pointer">
-<div class="relative h-64 overflow-hidden rounded-xl mb-6 shadow-lg">
-<img alt="Curasemillas" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Treated seeds in a petri dish" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjRNWoMSXBPSw3doQ3Pgqr4s7p93ypqIcVGjAZXavTDvtdeAxQcPQxyTZbS8dTNNi4BAQV9mDKoWsjPY8dk2gwPvyjwPbux1d1mBOUETU3mwH6hLc0DI3-fyGX7PN_YzlAInga2uTWrMAaIu1B5qQoZhk0NWjUFmE6bNBkSUdtDudAfdwgyDpw9FqPPKttDNNDQIdhDvG0RQsetRUnipVIvYXMkysiH-oM4i9MTZo8Nc1kDIfLd36jqJL8wY7G3ARfJT4iENagQrlY"/>
-<div class="absolute inset-0 bg-secondary/40 group-hover:bg-secondary/20 transition-colors"></div>
-<div class="absolute bottom-6 left-6 text-white">
-<span class="material-symbols-outlined text-4xl mb-2">shield</span>
-</div>
-</div>
-<h4 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Curasemillas</h4>
-<p class="text-slate-600 dark:text-slate-400 text-sm">Protección fúngica y bacteriana desde el primer estadío de la planta.</p>
-</div>
-</div>
-</div>
-</section>
-<!-- Featured Products Section -->
-<section class="py-24 bg-background-light dark:bg-slate-900/50">
-<div class="container mx-auto px-6">
-<div class="text-center mb-16">
-<h2 class="text-4xl font-bold mb-4">Lanzamientos y Destacados</h2>
-<p class="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">Conocé nuestra nueva línea de productos formulados con consorcios microbianos de alta eficiencia.</p>
-</div>
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-<!-- Product Spotlight 1 -->
-<div class="bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-xl flex flex-col md:flex-row">
-<div class="md:w-1/2 p-12 flex items-center justify-center bg-slate-50 dark:bg-slate-900/40">
-<div class="relative">
-<div class="absolute -inset-4 bg-primary/20 blur-3xl rounded-full"></div>
-<img alt="BIOTICA N2" class="relative w-48 drop-shadow-2xl rounded-lg" src="biotica_n2_product.webp"/>
-</div>
-</div>
-<div class="md:w-1/2 p-8 flex flex-col justify-center">
-<span class="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full w-fit mb-4">NUEVO LANZAMIENTO</span>
-<h3 class="text-2xl font-bold mb-2">BIOTICA N2</h3>
-<p class="text-slate-600 dark:text-slate-400 text-sm mb-6">Biofertilizante y promotor de crecimiento con Gluconacetobacter diazotropicus y Paraburkholderia tropica para aportar nitrógeno aprovechable y potenciar el desarrollo del cultivo.</p>
-<div class="space-y-3 mb-8">
-<div class="flex items-center gap-3 text-sm">
-<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
-<span>Fijación biológica de nitrógeno en la planta</span>
-</div>
-<div class="flex items-center gap-3 text-sm">
-<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
-<span>Producción de fitohormonas para estimular crecimiento</span>
-</div>
-<div class="flex items-center gap-3 text-sm">
-<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
-<span>Solubiliza P, K y Zn y aporta acción antifúngica</span>
-</div>
-</div>
-<div class="space-y-3">
-<a class="block w-full py-3 border border-slate-200 dark:border-slate-700 rounded-lg font-bold text-center hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors" href="#">Ficha Técnica</a>
-<a class="flex w-full items-center justify-center gap-2 rounded-lg bg-slate-900 px-4 py-3 font-bold text-white transition-colors hover:bg-slate-800 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-200" href="https://fauno.ai/products/689f79d3a438a02379486d1f/" rel="noopener noreferrer" target="_blank">
-<img alt="Fauno" class="h-5 w-auto" src="fauno_logo.webp"/>
-<span>Ensayos en Fauno</span>
-</a>
-</div>
-</div>
-</div>
-<!-- Product Spotlight 2 -->
-<div class="bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-xl flex flex-col md:flex-row">
-<div class="md:w-1/2 p-12 flex items-center justify-center bg-slate-50 dark:bg-slate-900/40">
-<div class="relative">
-<div class="absolute -inset-4 bg-primary/20 blur-3xl rounded-full"></div>
-<img alt="Nutraamin" class="relative w-48 drop-shadow-2xl rounded-lg" src="nutraamin_product.webp"/>
-</div>
-</div>
-<div class="md:w-1/2 p-8 flex flex-col justify-center">
-<span class="bg-primary/10 text-primary text-xs font-bold px-3 py-1 rounded-full w-fit mb-4">NUEVO PRODUCTO</span>
-<h3 class="text-2xl font-bold mb-2">Nutraamin</h3>
-<p class="text-slate-600 dark:text-slate-400 text-sm mb-6">Fertilizante biológico con aminoácidos de hidrólisis vegetal y ácidos poliglutámicos (PGA), totalmente soluble y de rápida asimilación.</p>
-<div class="space-y-3 mb-8">
-<div class="flex items-center gap-3 text-sm">
-<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
-<span>Aporta nitrógeno orgánico como aminoácidos libres</span>
-</div>
-<div class="flex items-center gap-3 text-sm">
-<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
-<span>Favorece etapas tempranas y momentos críticos</span>
-</div>
-<div class="flex items-center gap-3 text-sm">
-<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
-<span>Ayuda frente al estrés y mejora la quelación de oligoelementos</span>
-</div>
-</div>
-<div class="space-y-3">
-<a class="block w-full py-3 border border-slate-200 dark:border-slate-700 rounded-lg font-bold text-center hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors" href="#">Ficha Técnica</a>
-<a class="flex w-full items-center justify-center gap-2 rounded-lg bg-slate-900 px-4 py-3 font-bold text-white transition-colors hover:bg-slate-800 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-200" href="https://fauno.ai/products/6982110d5c4822d06c792ef3/" rel="noopener noreferrer" target="_blank">
-<img alt="Fauno" class="h-5 w-auto" src="fauno_logo.webp"/>
-<span>Ensayos en Fauno</span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Innovation Banner -->
-<section class="py-20 bg-secondary text-white relative overflow-hidden">
-<div class="absolute top-0 right-0 w-1/3 h-full opacity-10">
-<span class="material-symbols-outlined text-[300px]">science</span>
-</div>
-<div class="container mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center gap-12">
-<div class="md:w-2/3">
-<h2 class="text-4xl font-bold mb-6">I+D+i: El motor de nuestra evolución</h2>
-<p class="text-xl text-slate-300 leading-relaxed mb-8">
-                        Contamos con laboratorios propios y convenios con instituciones científicas de primer nivel para desarrollar fórmulas que responden a los desafíos del cambio climático y aportan a la seguridad alimentaria.
-                    </p>
-<div class="flex gap-8">
-<div class="flex flex-col">
-<span class="text-4xl font-bold text-primary">Más de una década</span>
-<span class="text-sm text-slate-400 uppercase tracking-widest">Años de Investigación</span>
-</div>
-<div class="flex flex-col">
-<span class="text-4xl font-bold text-primary">Diversas innovaciones</span>
-<span class="text-sm text-slate-400 uppercase tracking-widest">Patentes Registradas</span>
-</div>
-</div>
-</div>
-<div class="md:w-1/3">
-<button class="bg-primary text-secondary font-bold px-10 py-5 rounded-lg w-full hover:shadow-2xl transition-all">Ver Proyectos de Investigación</button>
-</div>
-</div>
-</section>
-<!-- Footer -->
-<footer class="bg-secondary text-slate-100 border-t border-secondary/70 py-8">
-  <div class="container mx-auto px-6">
-    <div class="flex flex-col items-center gap-2 text-center">
-      <p class="text-xs md:text-sm">© 2026 Bioticals. Todos los derechos reservados.</p>
-      <p class="text-xs text-slate-300">Diseñado por <a class="text-primary font-semibold hover:text-primary/80 transition-colors" href="#">UmanaAI</a></p>
+<body>
+  <header class="site-header">
+    <div class="wrap topbar">
+      <a class="brand" href="#top" aria-label="Bioticals">
+        <span class="brand-mark">B</span>
+        <span class="brand-copy">
+          <strong>Bioticals</strong>
+          <span>bioinsumos con foco comercial</span>
+        </span>
+      </a>
+      <nav class="nav">
+        <a href="#beneficios">Beneficios</a>
+        <a href="#aplicaciones">Aplicaciones</a>
+        <a href="#faq">FAQ</a>
+        <a href="#lead-form" class="nav-cta" data-track-click="header_cta">Solicitar asesoramiento</a>
+      </nav>
     </div>
-  </div>
-</footer>
-</div>
-</body></html>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">Bioinsumo para captación de leads calificados</div>
+          <h1>Convertí interés técnico en oportunidades comerciales para <span>BIOT!CA.N2</span>.</h1>
+          <p class="hero-lead">
+            Una landing diseñada para productores y asesores que buscan mejorar la eficiencia de nitrógeno,
+            reducir dependencia de fertilización sintética y recibir contacto comercial rápido.
+          </p>
+          <div class="hero-proof">
+            <div>
+              <strong>25-30%</strong>
+              <span>de reemplazo potencial de necesidades de N informado por Bioticals</span>
+            </div>
+            <div>
+              <strong>3 vías</strong>
+              <span>de aplicación: semilla, surco y foliar</span>
+            </div>
+            <div>
+              <strong>No OGM</strong>
+              <span>según la tecnología publicada por la empresa</span>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <a href="#lead-form" class="button button-primary" data-track-click="hero_form_cta">Quiero ficha técnica</a>
+            <a href="https://fauno.ai/products/689f79d3a438a02379486d1f/" class="button button-secondary" target="_blank" rel="noopener" data-track-click="hero_fauno_cta">Ver publicación en Fauno</a>
+          </div>
+          <ul class="hero-bullets">
+            <li>Lead magnet claro: ficha técnica, disponibilidad por zona y contacto comercial.</li>
+            <li>Mensajería pensada para campañas en Meta, Google Ads y remarketing.</li>
+            <li>Eventos listos para `dataLayer`, GA4 y Google Ads.</li>
+          </ul>
+        </div>
+
+        <aside class="lead-card">
+          <div class="card-badge">Objetivo: más leads</div>
+          <h2>Pedí información comercial</h2>
+          <p>Completá el formulario y Bioticals puede responder con recomendación inicial, ficha técnica y disponibilidad según tu zona.</p>
+
+          <form id="lead-form" class="lead-form" action="https://formsubmit.co/info@bioticals.com.ar" method="POST">
+            <input type="hidden" name="_subject" value="Nuevo lead de BIOT!CA.N2" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="thank-you.html" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="producto" value="BIOT!CA.N2" />
+            <input type="hidden" name="origen" value="Landing BIOT!CA.N2" />
+            <input type="hidden" name="fuente_fauno" value="https://fauno.ai/products/689f79d3a438a02379486d1f/" />
+
+            <label>
+              Nombre y apellido
+              <input type="text" name="nombre" autocomplete="name" required placeholder="Ej. Juan Pérez" />
+            </label>
+
+            <label>
+              Empresa o establecimiento
+              <input type="text" name="empresa" autocomplete="organization" placeholder="Ej. Establecimiento La Esperanza" />
+            </label>
+
+            <div class="form-split">
+              <label>
+                WhatsApp
+                <input type="tel" name="telefono" autocomplete="tel" required placeholder="+54 9 ..." />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" autocomplete="email" required placeholder="tu@email.com" />
+              </label>
+            </div>
+
+            <div class="form-split">
+              <label>
+                Cultivo
+                <input type="text" name="cultivo" placeholder="Maíz, trigo, caña, otro" />
+              </label>
+              <label>
+                Provincia o zona
+                <input type="text" name="zona" placeholder="Provincia / región" />
+              </label>
+            </div>
+
+            <label>
+              ¿Qué necesitás?
+              <textarea name="mensaje" rows="4" placeholder="Ej. Quiero evaluar encaje técnico, disponibilidad y esquema de aplicación."></textarea>
+            </label>
+
+            <button class="button button-primary button-block" type="submit">Solicitar contacto comercial</button>
+            <p class="form-note">Al enviar, se registra un evento de lead y se redirige a una página de gracias. También podés ir directo por WhatsApp.</p>
+          </form>
+
+          <a class="quick-wa" id="whatsapp-direct" href="https://wa.me/5491135338229?text=Hola%20Bioticals%2C%20quiero%20informaci%C3%B3n%20comercial%20de%20BIOT%21CA.N2." target="_blank" rel="noopener" data-track-click="sidebar_whatsapp_cta">
+            Hablar por WhatsApp
+          </a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="logos-strip">
+      <div class="wrap logos-grid">
+        <span>Orientada a tráfico frío y remarketing</span>
+        <span>Foco en captación de productores y asesores</span>
+        <span>Tracking listo para campañas</span>
+        <span>Mensaje centrado en eficiencia y rendimiento</span>
+      </div>
+    </section>
+
+    <section id="beneficios" class="section">
+      <div class="wrap">
+        <div class="section-intro">
+          <div class="eyebrow">Por qué convierte</div>
+          <h2>La propuesta baja fricción y acelera la intención de contacto.</h2>
+          <p>No empuja a una compra directa. Empuja al siguiente paso correcto: dejar datos para recibir ficha técnica, disponibilidad y asesoramiento según cultivo y zona.</p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="info-card">
+            <h3>Promesa concreta</h3>
+            <p>Habla de eficiencia de nitrógeno, menor dependencia de fertilización sintética y productividad. El usuario entiende rápido qué gana.</p>
+          </article>
+          <article class="info-card">
+            <h3>Prueba técnica entendible</h3>
+            <p>Se destacan atributos publicados por Bioticals: bacterias endófitas, no OGM, múltiples vías de aplicación y potencial de reemplazo parcial de nitrógeno.</p>
+          </article>
+          <article class="info-card">
+            <h3>Lead magnet útil</h3>
+            <p>El formulario promete algo que vale la pena: información comercial accionable y respuesta adaptada a la zona del lote.</p>
+          </article>
+          <article class="info-card">
+            <h3>Canales listos</h3>
+            <p>El mismo mensaje sirve para Google Ads, Meta Ads, campañas con UTMs y seguimiento de conversiones en GA4.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="aplicaciones" class="section section-alt">
+      <div class="wrap feature-layout">
+        <div>
+          <div class="eyebrow">Encaje agronómico</div>
+          <h2>Qué comunicar en campaña sobre BIOT!CA.N2</h2>
+          <ul class="check-list">
+            <li>Tecnología biológica basada en bacterias endófitas.</li>
+            <li>Potencial para complementar o reducir parte del nitrógeno sintético según planteo.</li>
+            <li>Puede aplicarse en semilla, surco o de forma foliar.</li>
+            <li>Mensaje útil para cultivos extensivos y conversaciones técnicas con asesores.</li>
+            <li>Ideal para captar leads que todavía están en evaluación, no solo decisión final.</li>
+          </ul>
+        </div>
+
+        <div class="feature-panel">
+          <div class="mini-kicker">CTA principal sugerido</div>
+          <h3>Solicitá disponibilidad por zona y ficha técnica</h3>
+          <p>Ese CTA reduce incertidumbre y genera una razón clara para dejar datos. Convierte mejor que un botón genérico como “más información”.</p>
+          <a href="#lead-form" class="button button-primary" data-track-click="middle_form_cta">Quiero esa info</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap process-grid">
+        <div class="section-intro section-intro-left">
+          <div class="eyebrow">Secuencia de conversión</div>
+          <h2>El recorrido está pensado para que el usuario no se pierda.</h2>
+        </div>
+        <article class="step-card">
+          <span>1</span>
+          <h3>Anzuelo técnico</h3>
+          <p>El usuario entra por rendimiento, eficiencia de nitrógeno o sustentabilidad.</p>
+        </article>
+        <article class="step-card">
+          <span>2</span>
+          <h3>Validación rápida</h3>
+          <p>Ve beneficios, aplicaciones y la publicación original en Fauno como respaldo extra.</p>
+        </article>
+        <article class="step-card">
+          <span>3</span>
+          <h3>Conversión</h3>
+          <p>Deja sus datos o va directo a WhatsApp, ambos eventos medibles y útiles para remarketing.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-dark">
+      <div class="wrap faq-wrap">
+        <div class="section-intro section-intro-left">
+          <div class="eyebrow">FAQ</div>
+          <h2>Objeciones resueltas antes de que abandonen la página.</h2>
+        </div>
+        <div class="faq-list">
+          <details open>
+            <summary>¿Qué recibe exactamente el lead?</summary>
+            <p>Ficha técnica, orientación comercial inicial, disponibilidad por zona y posibilidad de seguimiento directo por WhatsApp o email.</p>
+          </details>
+          <details>
+            <summary>¿La landing ya está lista para medir conversiones?</summary>
+            <p>Sí. Empuja eventos a `dataLayer` y puede disparar también GA4 y Google Ads cuando cargues tus IDs reales.</p>
+          </details>
+          <details>
+            <summary>¿Hace falta un backend propio?</summary>
+            <p>No necesariamente. La base está preparada para funcionar con `formsubmit.co`. Si preferís HubSpot, Webhook, Make o n8n, se puede cambiar el endpoint sin tocar el diseño.</p>
+          </details>
+          <details>
+            <summary>¿Puedo usar esta misma página para campañas?</summary>
+            <p>Sí. Está pensada para usarse como landing de tráfico pago con UTMs, campañas de búsqueda, redes sociales y remarketing.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-band">
+      <div class="wrap cta-band-inner">
+        <div>
+          <div class="eyebrow">Cierre</div>
+          <h2>Si querés captar leads para BIOT!CA.N2, el próximo paso es activarla con tus IDs y tu dominio.</h2>
+        </div>
+        <div class="cta-band-actions">
+          <a href="#lead-form" class="button button-primary" data-track-click="footer_form_cta">Activar formulario</a>
+          <a href="mailto:info@bioticals.com.ar?subject=Consulta%20por%20BIOT!CA.N2" class="button button-secondary" data-track-click="footer_email_cta">Escribir por email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a class="sticky-mobile-cta" href="#lead-form" data-track-click="sticky_mobile_cta">Solicitar asesoramiento</a>
+
+  <script src="assets/site.js"></script>
+</body>
+</html>
