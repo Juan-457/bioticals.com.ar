@@ -278,8 +278,11 @@ h1 span {
   box-shadow: 0 0 0 6px rgba(123, 211, 137, 0.18);
 }
 
+.hero-showcase {
+  margin-top: 22px;
+}
+
 .hero-product {
-  margin-top: 24px;
   display: grid;
   grid-template-columns: 136px minmax(0, 1fr);
   gap: 18px;
@@ -308,6 +311,15 @@ h1 span {
 .hero-product-copy span {
   color: var(--muted);
   line-height: 1.45;
+}
+
+.feature-product-image {
+  width: 100%;
+  max-width: 180px;
+  display: block;
+  margin: 0 0 16px;
+  object-fit: contain;
+  filter: drop-shadow(0 16px 24px rgba(15, 61, 46, 0.16));
 }
 
 .lead-card {
