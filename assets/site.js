@@ -96,7 +96,7 @@
 
   var wa = document.getElementById('whatsapp-direct');
   if (wa && config.whatsappNumber) {
-    wa.href = 'https://wa.me/' + config.whatsappNumber + '?text=' + encodeURIComponent('Hola Biotical, quiero información comercial de BIOTICA N2.');
+    wa.href = 'https://wa.me/' + config.whatsappNumber + '?text=' + encodeURIComponent('Hola Biotica, quiero información comercial de BIOTICA N2.');
     wa.addEventListener('click', function () {
       track('whatsapp_click', {
         event_label: 'direct_whatsapp'
