@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bioticals.com.ar/sitemap.xml
+Sitemap: https://biotican2.com.ar/sitemap.xml
