@@ -941,6 +941,233 @@ h1 span {
 
 /* ── end ensayos ── */
 
+/* ── Métricas ── */
+
+.metrics-section {
+  background: linear-gradient(180deg, var(--sand) 0%, var(--paper) 100%);
+  border-block: 1px solid var(--line);
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.metric-card {
+  display: flex;
+  flex-direction: column;
+  padding: 28px 24px;
+  border-radius: 22px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  box-shadow: 0 8px 24px rgba(12, 42, 28, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.metric-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px rgba(12, 42, 28, 0.12);
+}
+
+.metric-num {
+  font: 700 clamp(2rem, 3.4vw, 2.7rem) "Space Grotesk", sans-serif;
+  color: var(--forest);
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.metric-label {
+  font-weight: 600;
+  color: var(--ink);
+  font-size: 0.98rem;
+  line-height: 1.35;
+  margin-bottom: 12px;
+}
+
+.metric-desc {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.metric-card-dark {
+  background: linear-gradient(160deg, var(--forest) 0%, var(--forest-soft) 100%);
+  border-color: transparent;
+  color: white;
+}
+
+.metric-card-dark .metric-num {
+  color: var(--mint);
+}
+
+.metric-card-dark .metric-label {
+  color: white;
+}
+
+.metric-card-dark .metric-desc {
+  color: rgba(255, 255, 255, 0.74);
+}
+
+/* ── Reseñas / Resultados verificados ── */
+
+.reviews-section {
+  background: var(--paper);
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--line);
+  box-shadow: 0 12px 28px rgba(12, 42, 28, 0.07);
+}
+
+.review-result {
+  font: 700 clamp(2.2rem, 4vw, 3rem) "Space Grotesk", sans-serif;
+  color: var(--forest);
+  line-height: 1;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.review-context {
+  margin: 0 0 22px;
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1.55;
+  flex: 1;
+}
+
+.review-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+.review-crop {
+  font: 600 0.95rem "Space Grotesk", sans-serif;
+  color: var(--forest);
+}
+
+.review-source {
+  font-size: 0.84rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.review-card-accent {
+  background: linear-gradient(160deg, var(--forest) 0%, var(--forest-soft) 100%);
+  border-color: transparent;
+  color: white;
+  box-shadow: 0 20px 40px rgba(15, 61, 46, 0.25);
+}
+
+.review-card-accent .review-result {
+  color: var(--mint);
+}
+
+.review-card-accent .review-context {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.review-card-accent .review-meta {
+  border-top-color: rgba(255, 255, 255, 0.18);
+}
+
+.review-card-accent .review-crop {
+  color: white;
+}
+
+.review-card-accent .review-source {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.link-forest {
+  color: var(--forest);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(15, 61, 46, 0.3);
+}
+
+/* ── WhatsApp CTA ── */
+
+.wa-cta-section {
+  background: linear-gradient(135deg, var(--forest) 0%, var(--forest-soft) 100%);
+  color: white;
+  padding-bottom: 96px;
+}
+
+.wa-cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.wa-cta-text {
+  max-width: 560px;
+}
+
+.wa-cta-text .eyebrow {
+  color: var(--mint);
+}
+
+.wa-cta-text h2 {
+  margin: 8px 0 14px;
+  font-size: clamp(1.9rem, 3.6vw, 3rem);
+  line-height: 1.05;
+  color: white;
+}
+
+.wa-cta-text p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+.button-wa-large {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 32px;
+  border-radius: 999px;
+  background: #25D366;
+  color: white;
+  font: 700 1.1rem "Space Grotesk", sans-serif;
+  box-shadow: 0 18px 40px rgba(37, 211, 102, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  white-space: nowrap;
+}
+
+.button-wa-large:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 22px 48px rgba(37, 211, 102, 0.55);
+}
+
+.button-wa-large svg {
+  width: 24px;
+  height: 24px;
+  fill: white;
+  flex-shrink: 0;
+}
+
+/* ── end new sections ── */
+
 @media (max-width: 1080px) {
   .hero-grid,
   .validation-grid,
@@ -965,11 +1192,47 @@ h1 span {
   }
 
   .ensayos-map-wrap { order: -1; }
+
+  .metrics-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .wa-cta-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 @media (max-width: 760px) {
   .ensayos-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   #argentina-svg { max-width: 220px; }
+
+  .metrics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .metric-card {
+    padding: 22px 20px;
+  }
+
+  .review-card {
+    padding: 22px;
+  }
+
+  .wa-cta-section {
+    padding-bottom: 80px;
+  }
+
+  .button-wa-large {
+    width: 100%;
+    justify-content: center;
+    padding: 18px 24px;
+    font-size: 1rem;
+  }
 
   body {
     background-attachment: scroll;
