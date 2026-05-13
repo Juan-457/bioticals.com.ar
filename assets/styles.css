@@ -850,7 +850,12 @@ h1 span {
 
 /* ── Ensayos / Argentina map ── */
 
-.ensayos-section { padding-block: clamp(72px, 8vw, 120px); }
+.ensayos-section {
+  padding-block: clamp(72px, 8vw, 120px);
+  background:
+    linear-gradient(180deg, rgba(16, 52, 38, 0.78) 0%, rgba(15, 45, 34, 0.85) 100%),
+    url("../maiz.webp") center center / cover no-repeat fixed;
+}
 
 .ensayos-layout {
   width: min(calc(100% - 48px), 1500px);
