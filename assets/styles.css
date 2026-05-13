@@ -1357,7 +1357,7 @@ h1 span {
 
 .site-footer {
   background: var(--forest);
-  padding: 28px 0;
+  padding: 14px 0;
   border-top: 1px solid rgba(123, 211, 137, 0.18);
 }
 
@@ -1370,16 +1370,15 @@ h1 span {
 .footer-credit {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  color: rgba(255, 255, 255, 0.75);
-  font: 600 0.92rem "Source Sans 3", sans-serif;
+  gap: 6px;
+  color: rgba(255, 255, 255, 0.6);
+  font: 500 0.72rem "Source Sans 3", sans-serif;
   letter-spacing: 0.02em;
-  transition: color 0.2s ease, transform 0.2s ease;
+  transition: color 0.2s ease;
 }
 
 .footer-credit:hover {
   color: white;
-  transform: translateY(-1px);
 }
 
 .footer-credit-text {
@@ -1387,11 +1386,11 @@ h1 span {
 }
 
 .footer-credit-logo {
-  height: 32px;
+  height: 16px;
   width: auto;
   display: block;
   filter: brightness(0) invert(1);
-  opacity: 0.92;
+  opacity: 0.85;
 }
 
 /* ── end new sections ── */
