@@ -25,10 +25,7 @@ body {
   margin: 0;
   color: var(--ink);
   font-family: "Source Sans 3", system-ui, sans-serif;
-  background:
-    linear-gradient(180deg, rgba(252, 251, 245, 0.9) 0%, rgba(241, 240, 230, 0.95) 100%),
-    radial-gradient(circle at top left, rgba(123, 211, 137, 0.2), transparent 34%),
-    url("../maiz.webp") center top / cover fixed no-repeat;
+  background: var(--paper);
 }
 
 a {
@@ -91,9 +88,9 @@ a {
 }
 
 .hero {
-  padding: 52px 0 20px;
+  padding: 52px 0 36px;
   background:
-    linear-gradient(180deg, rgba(252, 251, 245, 0.82) 0%, rgba(241, 240, 230, 0.88) 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.55) 0%, rgba(240, 248, 240, 0.6) 100%),
     url("../fondo.webp") center center / cover no-repeat;
 }
 
@@ -278,6 +275,46 @@ h1 span {
   box-shadow: 0 0 0 6px rgba(123, 211, 137, 0.18);
 }
 
+.hero-features {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.hero-feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 14px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(16, 33, 24, 0.08);
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ink);
+  backdrop-filter: blur(8px);
+}
+
+.hero-feature-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--mint-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.hero-feature-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--forest);
+}
+
 
 .feature-product-image {
   width: 100%;
@@ -288,49 +325,66 @@ h1 span {
   filter: drop-shadow(0 16px 24px rgba(15, 61, 46, 0.16));
 }
 
+.hero-subtitle {
+  margin: 10px 0 0;
+  font-size: 1.05rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
 .hero-wa-panel {
   position: sticky;
   top: 104px;
-  padding: 28px;
+  padding: 28px 24px 24px;
   border-radius: 32px;
-  background:
-    linear-gradient(180deg, rgba(15, 61, 46, 0.96), rgba(22, 83, 63, 0.94)),
-    url("../maiz.webp") center / cover no-repeat;
-  color: white;
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(12px);
+  color: var(--ink);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0 20px 60px rgba(12, 42, 28, 0.14);
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  text-align: center;
   gap: 0;
 }
 
-.hero-wa-panel h2 {
-  margin-top: 16px;
-  font-size: 1.8rem;
-  line-height: 1.05;
+.tech-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: var(--forest);
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  margin-left: auto;
+  align-self: flex-end;
+  box-shadow: 0 4px 16px rgba(15, 61, 46, 0.35);
 }
 
-.hero-wa-panel > p {
-  color: rgba(255, 255, 255, 0.8);
-  margin: 10px 0 0;
-  line-height: 1.5;
+.tech-badge svg {
+  width: 18px;
+  height: 18px;
+  fill: var(--mint);
+  margin-bottom: 3px;
 }
 
 .wa-panel-product-img {
   display: block;
-  width: 140px;
-  margin: 22px auto;
+  width: 200px;
+  margin: 10px auto 18px;
   object-fit: contain;
-  filter: drop-shadow(0 16px 28px rgba(0, 0, 0, 0.3));
-}
-
-.wa-panel-note {
-  width: 100%;
-  text-align: center;
-  margin-top: 12px !important;
-  font-size: 0.86rem;
-  color: rgba(255, 255, 255, 0.55) !important;
+  filter: drop-shadow(0 20px 30px rgba(15, 61, 46, 0.22));
 }
 
 .button-wa {
@@ -694,6 +748,10 @@ h1 span {
   .process-grid,
   .feature-layout {
     grid-template-columns: 1fr;
+  }
+
+  .hero-features {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .hero-copy,
