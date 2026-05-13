@@ -850,13 +850,14 @@ h1 span {
 
 /* ── Ensayos / Argentina map ── */
 
-.ensayos-section { padding-block: 80px; }
+.ensayos-section { padding-block: clamp(72px, 8vw, 120px); }
 
 .ensayos-layout {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  align-items: stretch;
+  width: min(calc(100% - 48px), 1500px);
+  display: grid;
+  grid-template-columns: minmax(300px, 0.72fr) minmax(620px, 1.28fr);
+  gap: clamp(44px, 6vw, 92px);
+  align-items: center;
 }
 
 .ensayos-copy {
@@ -955,8 +956,8 @@ h1 span {
 .fauno-embed-wrap {
   position: relative;
   width: 100%;
-  height: min(85vh, 1200px);
-  min-height: 720px;
+  height: clamp(620px, 72vh, 980px);
+  min-height: 620px;
   border-radius: 22px;
   overflow: hidden;
   border: 1px solid rgba(123, 211, 137, 0.2);
@@ -1369,6 +1370,12 @@ h1 span {
 /* ── end new sections ── */
 
 @media (max-width: 1080px) {
+  .ensayos-layout {
+    width: min(calc(100% - 32px), var(--max));
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
   .hero-grid,
   .validation-grid,
   .feature-layout,
