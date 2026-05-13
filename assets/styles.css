@@ -853,10 +853,14 @@ h1 span {
 .ensayos-section { padding-block: 80px; }
 
 .ensayos-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 0.65fr) minmax(0, 1.35fr);
-  gap: 44px;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: stretch;
+}
+
+.ensayos-copy {
+  max-width: 720px;
 }
 
 .ensayos-copy h2 {
@@ -951,7 +955,8 @@ h1 span {
 .fauno-embed-wrap {
   position: relative;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: min(85vh, 1200px);
+  min-height: 720px;
   border-radius: 22px;
   overflow: hidden;
   border: 1px solid rgba(123, 211, 137, 0.2);
@@ -1382,11 +1387,10 @@ h1 span {
     align-items: flex-start;
   }
 
-  .ensayos-layout {
-    grid-template-columns: 1fr;
+  .fauno-embed-wrap {
+    min-height: 560px;
+    height: 75vh;
   }
-
-  .ensayos-map-wrap { order: -1; }
 
   .trust-band {
     grid-template-columns: 1fr;
@@ -1411,7 +1415,12 @@ h1 span {
 
 @media (max-width: 760px) {
   .ensayos-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  #argentina-svg { max-width: 220px; }
+
+  .fauno-embed-wrap {
+    min-height: 480px;
+    height: 80vh;
+    border-radius: 16px;
+  }
 
   .trust-stats {
     gap: 12px;
