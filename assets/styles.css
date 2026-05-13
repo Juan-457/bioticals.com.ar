@@ -350,7 +350,7 @@ h1 span {
 
 .wa-bubble {
   position: fixed;
-  right: 24px;
+  left: 24px;
   bottom: 28px;
   z-index: 100;
   width: 62px;
