@@ -88,7 +88,7 @@ a {
 }
 
 .hero {
-  min-height: clamp(420px, calc(100svh - 80px), 780px);
+  min-height: 100svh;
   background: url("../fondo.webp") center center / cover no-repeat;
 }
 
@@ -738,7 +738,7 @@ h1 span {
   }
 
   .hero {
-    min-height: min(620px, calc(100svh - 80px));
+    min-height: 100svh;
   }
 
   .hero-grid,
