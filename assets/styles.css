@@ -1353,6 +1353,47 @@ h1 span {
   letter-spacing: -0.02em;
 }
 
+/* ── Footer (credit UmanoAI) ── */
+
+.site-footer {
+  background: var(--forest);
+  padding: 28px 0;
+  border-top: 1px solid rgba(123, 211, 137, 0.18);
+}
+
+.site-footer-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-credit {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(255, 255, 255, 0.75);
+  font: 600 0.92rem "Source Sans 3", sans-serif;
+  letter-spacing: 0.02em;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.footer-credit:hover {
+  color: white;
+  transform: translateY(-1px);
+}
+
+.footer-credit-text {
+  white-space: nowrap;
+}
+
+.footer-credit-logo {
+  height: 32px;
+  width: auto;
+  display: block;
+  filter: brightness(0) invert(1);
+  opacity: 0.92;
+}
+
 /* ── end new sections ── */
 
 @media (max-width: 1080px) {
