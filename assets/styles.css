@@ -92,6 +92,9 @@ a {
 
 .hero {
   padding: 52px 0 20px;
+  background:
+    linear-gradient(180deg, rgba(252, 251, 245, 0.82) 0%, rgba(241, 240, 230, 0.88) 100%),
+    url("../fondo.webp") center center / cover no-repeat;
 }
 
 .hero-grid {
