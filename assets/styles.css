@@ -90,6 +90,80 @@ a {
 .hero {
   min-height: 100svh;
   background: url("../fondo.webp") center center / cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  min-height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-block: clamp(34px, 7vw, 76px) clamp(48px, 8vw, 96px);
+}
+
+.hero-title {
+  margin: 0;
+  max-width: none;
+  font-size: clamp(3rem, 8.8vw, 8.8rem);
+  line-height: 0.85;
+  letter-spacing: -0.075em;
+  text-transform: uppercase;
+  text-shadow: 0 6px 20px rgba(0, 0, 0, 0.16);
+}
+
+.hero-title span {
+  color: var(--mint);
+}
+
+.hero-title i {
+  color: var(--mint);
+  font-style: normal;
+  margin-inline: 0.02em 0.04em;
+}
+
+.hero-title strong {
+  color: #f4c533;
+  font-weight: 700;
+}
+
+.hero-value-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(16px, 4vw, 38px);
+  align-items: center;
+}
+
+.hero-value-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #f4f9e9;
+  font-size: clamp(0.9rem, 1.4vw, 1.2rem);
+  font-weight: 600;
+  line-height: 1.05;
+  text-shadow: 0 3px 12px rgba(0, 0, 0, 0.38);
+}
+
+.hero-value-icon {
+  width: clamp(38px, 4.3vw, 54px);
+  height: clamp(38px, 4.3vw, 54px);
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 auto;
+  border: 2px solid var(--mint);
+  border-radius: 999px;
+  color: var(--mint);
+  background: rgba(10, 29, 20, 0.2);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+}
+
+.hero-value-icon svg {
+  width: 58%;
+  height: 58%;
+  fill: currentColor;
 }
 
 .hero-grid {
@@ -739,6 +813,17 @@ h1 span {
 
   .hero {
     min-height: 100svh;
+    background-position: 58% center;
+  }
+
+  .hero-overlay {
+    padding-block: 26px 44px;
+  }
+
+  .hero-value-list {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
   }
 
   .hero-grid,
