@@ -993,6 +993,26 @@ h1 span {
   background: #f5f2e8;
 }
 
+.fauno-embed-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 400px;
+  z-index: 2;
+  background:
+    linear-gradient(to right, var(--forest) 0%, var(--forest) 86%, rgba(15, 61, 46, 0) 100%);
+  pointer-events: none;
+}
+
+@media (max-width: 1024px) {
+  .fauno-embed-mask { width: 320px; }
+}
+
+@media (max-width: 767px) {
+  .fauno-embed-mask { display: none; }
+}
+
 .fauno-embed-link {
   position: absolute;
   top: 14px;
