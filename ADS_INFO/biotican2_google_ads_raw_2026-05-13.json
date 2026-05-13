@@ -1,0 +1,5981 @@
+{
+  "extracted_at": "2026-05-13T02:06:31Z",
+  "customer_id": "4055591741",
+  "range_30d": [
+    "2026-04-13",
+    "2026-05-13"
+  ],
+  "queries": {
+    "campaigns_30d": [
+      {
+        "customer": {
+          "resourceName": "customers/4055591741",
+          "descriptiveName": "Biotica N2",
+          "currencyCode": "ARS",
+          "timeZone": "America/Buenos_Aires"
+        },
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "advertisingChannelType": "SEARCH",
+          "biddingStrategyType": "TARGET_SPEND",
+          "name": "Biotica N2 - Búsqueda",
+          "id": "23781809885",
+          "primaryStatus": "LIMITED",
+          "primaryStatusReasons": [
+            "BUDGET_CONSTRAINED"
+          ]
+        },
+        "metrics": {
+          "clicks": "75",
+          "conversions": 2,
+          "costMicros": "42259088820",
+          "ctr": 0.008882046423495974,
+          "averageCpc": 563454517.6,
+          "impressions": "8444"
+        },
+        "campaignBudget": {
+          "resourceName": "customers/4055591741/campaignBudgets/15521576879",
+          "amountMicros": "2000000000"
+        }
+      },
+      {
+        "customer": {
+          "resourceName": "customers/4055591741",
+          "descriptiveName": "Biotica N2",
+          "currencyCode": "ARS",
+          "timeZone": "America/Buenos_Aires"
+        },
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23753766372",
+          "status": "REMOVED",
+          "advertisingChannelType": "PERFORMANCE_MAX",
+          "biddingStrategyType": "MAXIMIZE_CONVERSIONS",
+          "name": "Campaign #1",
+          "id": "23753766372",
+          "primaryStatus": "REMOVED",
+          "primaryStatusReasons": [
+            "CAMPAIGN_REMOVED"
+          ]
+        },
+        "metrics": {
+          "clicks": "175",
+          "conversions": 0,
+          "costMicros": "16016108927",
+          "ctr": 0.030429490523387236,
+          "averageCpc": 91520622.44,
+          "impressions": "5751"
+        },
+        "campaignBudget": {
+          "resourceName": "customers/4055591741/campaignBudgets/15513181162",
+          "amountMicros": "2000000000"
+        }
+      },
+      {
+        "customer": {
+          "resourceName": "customers/4055591741",
+          "descriptiveName": "Biotica N2",
+          "currencyCode": "ARS",
+          "timeZone": "America/Buenos_Aires"
+        },
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23776520562",
+          "status": "REMOVED",
+          "advertisingChannelType": "SEARCH",
+          "biddingStrategyType": "TARGET_SPEND",
+          "name": "Test_2",
+          "id": "23776520562",
+          "primaryStatus": "REMOVED",
+          "primaryStatusReasons": [
+            "CAMPAIGN_REMOVED"
+          ]
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "campaignBudget": {
+          "resourceName": "customers/4055591741/campaignBudgets/15521576879",
+          "amountMicros": "2000000000"
+        }
+      }
+    ],
+    "daily_30d": [
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "segments": {
+          "date": "2026-04-22"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "7",
+          "conversions": 0,
+          "costMicros": "3819891773",
+          "ctr": 0.015184381778741865,
+          "averageCpc": 545698824.7142857,
+          "impressions": "461"
+        },
+        "segments": {
+          "date": "2026-04-23"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "4",
+          "conversions": 0,
+          "costMicros": "2373836547",
+          "ctr": 0.004439511653718091,
+          "averageCpc": 593459136.75,
+          "impressions": "901"
+        },
+        "segments": {
+          "date": "2026-04-24"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "5",
+          "conversions": 0,
+          "costMicros": "2166332532",
+          "ctr": 0.00458295142071494,
+          "averageCpc": 433266506.4,
+          "impressions": "1091"
+        },
+        "segments": {
+          "date": "2026-04-25"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "7",
+          "conversions": 0,
+          "costMicros": "3632350491",
+          "ctr": 0.005319148936170213,
+          "averageCpc": 518907213,
+          "impressions": "1316"
+        },
+        "segments": {
+          "date": "2026-04-26"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "5",
+          "conversions": 1,
+          "costMicros": "1790690000",
+          "ctr": 0.0070921985815602835,
+          "averageCpc": 358138000,
+          "impressions": "705"
+        },
+        "segments": {
+          "date": "2026-04-27"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "5",
+          "conversions": 0,
+          "costMicros": "1469954572",
+          "ctr": 0.0165016501650165,
+          "averageCpc": 293990914.4,
+          "impressions": "303"
+        },
+        "segments": {
+          "date": "2026-04-28"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "5",
+          "conversions": 0,
+          "costMicros": "1513850000",
+          "ctr": 0.006729475100942127,
+          "averageCpc": 302770000,
+          "impressions": "743"
+        },
+        "segments": {
+          "date": "2026-04-29"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "5",
+          "conversions": 0,
+          "costMicros": "1154810000",
+          "ctr": 0.008517887563884156,
+          "averageCpc": 230962000,
+          "impressions": "587"
+        },
+        "segments": {
+          "date": "2026-04-30"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "9",
+          "conversions": 0,
+          "costMicros": "2052010000",
+          "ctr": 0.01002227171492205,
+          "averageCpc": 228001111.1111111,
+          "impressions": "898"
+        },
+        "segments": {
+          "date": "2026-05-01"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "68"
+        },
+        "segments": {
+          "date": "2026-05-02"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "5",
+          "conversions": 0,
+          "costMicros": "2807482905",
+          "ctr": 0.02109704641350211,
+          "averageCpc": 561496581,
+          "impressions": "237"
+        },
+        "segments": {
+          "date": "2026-05-03"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "198"
+        },
+        "segments": {
+          "date": "2026-05-04"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "3",
+          "conversions": 0,
+          "costMicros": "3978600000",
+          "ctr": 0.015789473684210527,
+          "averageCpc": 1326200000,
+          "impressions": "190"
+        },
+        "segments": {
+          "date": "2026-05-05"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "3",
+          "conversions": 0,
+          "costMicros": "3849420000",
+          "ctr": 0.023622047244094488,
+          "averageCpc": 1283140000,
+          "impressions": "127"
+        },
+        "segments": {
+          "date": "2026-05-06"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "3",
+          "conversions": 0,
+          "costMicros": "2609120000",
+          "ctr": 0.018867924528301886,
+          "averageCpc": 869706666.6666666,
+          "impressions": "159"
+        },
+        "segments": {
+          "date": "2026-05-07"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "2",
+          "conversions": 0,
+          "costMicros": "1590720000",
+          "ctr": 0.008771929824561403,
+          "averageCpc": 795360000,
+          "impressions": "228"
+        },
+        "segments": {
+          "date": "2026-05-08"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "2",
+          "conversions": 0,
+          "costMicros": "2307850000",
+          "ctr": 0.11764705882352941,
+          "averageCpc": 1153925000,
+          "impressions": "17"
+        },
+        "segments": {
+          "date": "2026-05-09"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "998530000",
+          "ctr": 0.023255813953488372,
+          "averageCpc": 998530000,
+          "impressions": "43"
+        },
+        "segments": {
+          "date": "2026-05-10"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "158390000",
+          "ctr": 0.00980392156862745,
+          "averageCpc": 158390000,
+          "impressions": "102"
+        },
+        "segments": {
+          "date": "2026-05-11"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "status": "ENABLED",
+          "name": "Biotica N2 - Búsqueda",
+          "primaryStatus": "LIMITED"
+        },
+        "metrics": {
+          "clicks": "3",
+          "conversions": 1,
+          "costMicros": "3985250000",
+          "ctr": 0.04411764705882353,
+          "averageCpc": 1328416666.6666667,
+          "impressions": "68"
+        },
+        "segments": {
+          "date": "2026-05-12"
+        }
+      }
+    ],
+    "adgroups_30d": [
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "status": "ENABLED",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "39",
+          "conversions": 1,
+          "costMicros": "23112247210",
+          "ctr": 0.01146384479717813,
+          "averageCpc": 592621723.3333334,
+          "impressions": "3402"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433713",
+          "status": "ENABLED",
+          "name": "Reemplazo de Fertilizantes"
+        },
+        "metrics": {
+          "clicks": "16",
+          "conversions": 0,
+          "costMicros": "11754017038",
+          "ctr": 0.009667673716012085,
+          "averageCpc": 734626064.875,
+          "impressions": "1655"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "status": "ENABLED",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "20",
+          "conversions": 1,
+          "costMicros": "7392824572",
+          "ctr": 0.00590493061706525,
+          "averageCpc": 369641228.6,
+          "impressions": "3387"
+        }
+      }
+    ],
+    "keywords_30d": [
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "22",
+          "conversions": 0,
+          "costMicros": "8360374305",
+          "ctr": 0.009072164948453608,
+          "averageCpc": 380017013.8636364,
+          "impressions": "2425"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433673~351988051813",
+          "status": "PAUSED",
+          "keyword": {
+            "matchType": "BROAD",
+            "text": "fertilizante biológico"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433673~351988051813"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "20",
+          "conversions": 1,
+          "costMicros": "7392824572",
+          "ctr": 0.006082725060827251,
+          "averageCpc": 369641228.6,
+          "impressions": "3288"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~2441191575268",
+          "status": "PAUSED",
+          "keyword": {
+            "matchType": "BROAD",
+            "text": "bioinsumo soja"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~2441191575268"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "11",
+          "conversions": 1,
+          "costMicros": "11392652905",
+          "ctr": 0.01779935275080906,
+          "averageCpc": 1035695718.6363636,
+          "impressions": "618"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433673~775087840228",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "PHRASE",
+            "text": "fertilizante biológico"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433673~775087840228"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433713",
+          "name": "Reemplazo de Fertilizantes"
+        },
+        "metrics": {
+          "clicks": "9",
+          "conversions": 0,
+          "costMicros": "3870837038",
+          "ctr": 0.006907137375287797,
+          "averageCpc": 430093004.2222222,
+          "impressions": "1303"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433713~1677787390457",
+          "status": "PAUSED",
+          "keyword": {
+            "matchType": "BROAD",
+            "text": "fertilizante sustentable"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433713~1677787390457"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433713",
+          "name": "Reemplazo de Fertilizantes"
+        },
+        "metrics": {
+          "clicks": "7",
+          "conversions": 0,
+          "costMicros": "7883180000",
+          "ctr": 0.019943019943019943,
+          "averageCpc": 1126168571.4285715,
+          "impressions": "351"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433713~2386681501420",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "PHRASE",
+            "text": "fertilizante sustentable"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433713~2386681501420"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "3",
+          "conversions": 0,
+          "costMicros": "1196810000",
+          "ctr": 0.025,
+          "averageCpc": 398936666.6666667,
+          "impressions": "120"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433673~2482053207351",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "PHRASE",
+            "text": "bacteria fijadora de nitrógeno"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433673~2482053207351"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "2",
+          "conversions": 0,
+          "costMicros": "891800000",
+          "ctr": 0.03333333333333333,
+          "averageCpc": 445900000,
+          "impressions": "60"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433673~2284698361386",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "EXACT",
+            "text": "bacteria fijadora de nitrógeno"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433673~2284698361386"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "1270610000",
+          "ctr": 0.00558659217877095,
+          "averageCpc": 1270610000,
+          "impressions": "179"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433673~443431648949",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "EXACT",
+            "text": "fertilizante biológico"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433673~443431648949"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433673~1981421244625",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "EXACT",
+            "text": "biofertilizante agrícola"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433673~1981421244625"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433673~2280795971201",
+          "status": "PAUSED",
+          "keyword": {
+            "matchType": "BROAD",
+            "text": "biofertilizante agrícola"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433673~2280795971201"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433673~2440127662052",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "PHRASE",
+            "text": "biofertilizante agrícola"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433673~2440127662052"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433673~2480247330218",
+          "status": "PAUSED",
+          "keyword": {
+            "matchType": "BROAD",
+            "text": "bioinsumo para maíz"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433673~2480247330218"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433673~2480446724569",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "PHRASE",
+            "text": "bioinsumo para maíz"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433673~2480446724569"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433673~2480446724609",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "PHRASE",
+            "text": "bioinsumo nitrógeno"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433673~2480446724609"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433673~2480446724769",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "EXACT",
+            "text": "bioinsumo nitrógeno"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433673~2480446724769"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433673~2480446725049",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "EXACT",
+            "text": "bioinsumo para maíz"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433673~2480446725049"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433673~2482053207511",
+          "status": "PAUSED",
+          "keyword": {
+            "matchType": "BROAD",
+            "text": "bioinsumo nitrógeno"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433673~2482053207511"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433713",
+          "name": "Reemplazo de Fertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433713~2372369696315",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "EXACT",
+            "text": "fertilizante sustentable"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433713~2372369696315"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433713",
+          "name": "Reemplazo de Fertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433713~2476066914454",
+          "status": "PAUSED",
+          "keyword": {
+            "matchType": "BROAD",
+            "text": "reducir fertilizante nitrogenado"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433713~2476066914454"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433713",
+          "name": "Reemplazo de Fertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433713~2482053206151",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "PHRASE",
+            "text": "reemplazar nitrógeno cultivos"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433713~2482053206151"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433713",
+          "name": "Reemplazo de Fertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433713~2482053207551",
+          "status": "PAUSED",
+          "keyword": {
+            "matchType": "BROAD",
+            "text": "alternativa urea agricultura"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433713~2482053207551"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433713",
+          "name": "Reemplazo de Fertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433713~2482588256865",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "PHRASE",
+            "text": "reducir fertilizante nitrogenado"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433713~2482588256865"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433713",
+          "name": "Reemplazo de Fertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433713~2482588257025",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "PHRASE",
+            "text": "alternativa urea agricultura"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433713~2482588257025"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433713",
+          "name": "Reemplazo de Fertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433713~2482588257065",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "EXACT",
+            "text": "reducir fertilizante nitrogenado"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433713~2482588257065"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433713",
+          "name": "Reemplazo de Fertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433713~2482588257305",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "EXACT",
+            "text": "alternativa urea agricultura"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433713~2482588257305"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "17"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~334218645050",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "EXACT",
+            "text": "inoculante soja"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~334218645050"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "76"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~334671655645",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "PHRASE",
+            "text": "inoculante soja"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~334671655645"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~2112427170674",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "PHRASE",
+            "text": "bioinsumos soja"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~2112427170674"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~2441191575308",
+          "status": "PAUSED",
+          "keyword": {
+            "matchType": "BROAD",
+            "text": "bioinsumo trigo"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~2441191575308"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~2441412691643",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "PHRASE",
+            "text": "biofertilizante soja"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~2441412691643"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~2464376449364",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "EXACT",
+            "text": "biofertilizante soja"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~2464376449364"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~2480446724809",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "PHRASE",
+            "text": "bioinsumo trigo"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~2480446724809"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~2480446724849",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "EXACT",
+            "text": "bioinsumo trigo"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~2480446724849"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~2480446725009",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "PHRASE",
+            "text": "bioinsumo maíz"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~2480446725009"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~2480446725089",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "EXACT",
+            "text": "bioinsumo maíz"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~2480446725089"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~2480446725249",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "PHRASE",
+            "text": "bioinsumo girasol"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~2480446725249"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~2480446725289",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "EXACT",
+            "text": "bioinsumo girasol"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~2480446725289"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~2482053360231",
+          "status": "PAUSED",
+          "keyword": {
+            "matchType": "BROAD",
+            "text": "bioinsumo maíz"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~2482053360231"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~2482053360911",
+          "status": "PAUSED",
+          "keyword": {
+            "matchType": "BROAD",
+            "text": "bioinsumo girasol"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~2482053360911"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~2482588256545",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "PHRASE",
+            "text": "bioinsumo soja"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~2482588256545"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~2482588256585",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "EXACT",
+            "text": "bioinsumo soja"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~2482588256585"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~2482588256785",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "PHRASE",
+            "text": "fijador de nitrógeno soja"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~2482588256785"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "impressions": "0"
+        },
+        "adGroupCriterion": {
+          "resourceName": "customers/4055591741/adGroupCriteria/197314433753~2482588256825",
+          "status": "ENABLED",
+          "keyword": {
+            "matchType": "EXACT",
+            "text": "fijador de nitrógeno soja"
+          }
+        },
+        "keywordView": {
+          "resourceName": "customers/4055591741/keywordViews/197314433753~2482588256825"
+        }
+      }
+    ],
+    "search_terms_30d": [
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "2",
+          "conversions": 0,
+          "costMicros": "174090000",
+          "ctr": 0.028169014084507043,
+          "averageCpc": 87045000,
+          "impressions": "71"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~ZmVydGlsaXphbnRl",
+          "searchTerm": "fertilizante"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "2",
+          "conversions": 1,
+          "costMicros": "723230000",
+          "ctr": 0.18181818181818182,
+          "averageCpc": 361615000,
+          "impressions": "11"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433753~YWdybyBzdXN0ZW50YWJsZQ",
+          "searchTerm": "agro sustentable"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "158390000",
+          "ctr": 0.041666666666666664,
+          "averageCpc": 158390000,
+          "impressions": "24"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmFjdGVyaWFzIGZpamFkb3JhcyBkZSBuaXRyb2dlbm8",
+          "searchTerm": "bacterias fijadoras de nitrogeno"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "1270610000",
+          "ctr": 0.0136986301369863,
+          "averageCpc": 1270610000,
+          "impressions": "73"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZmVydGlsaXphbnRlcw",
+          "searchTerm": "biofertilizantes"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "316112532",
+          "ctr": 1,
+          "averageCpc": 316112532,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Y2FtZWxpbmEgc2F0aXZh",
+          "searchTerm": "camelina sativa"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "1321030000",
+          "ctr": 0.3333333333333333,
+          "averageCpc": 1321030000,
+          "impressions": "3"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Y3JvcGxpZnQgYmlv",
+          "searchTerm": "croplift bio"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "1099080000",
+          "ctr": 0.5,
+          "averageCpc": 1099080000,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~ZWwgYWd1YSBkZSBsZW50ZWphcyBzaXJ2ZSBwYXJhIGxhcyBwbGFudGFz",
+          "searchTerm": "el agua de lentejas sirve para las plantas"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "615920000",
+          "ctr": 1,
+          "averageCpc": 615920000,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~ZmVydGlsaXphbnRlIGNvbiBjw6FzY2FyYSBkZSBodWV2byBwbMOhdGFubyB5IGNhZsOp",
+          "searchTerm": "fertilizante con cáscara de huevo plátano y café"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "636550000",
+          "ctr": 0.041666666666666664,
+          "averageCpc": 636550000,
+          "impressions": "24"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~aHVtdXMgZGUgbG9tYnJpeg",
+          "searchTerm": "humus de lombriz"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "242760000",
+          "ctr": 0.14285714285714285,
+          "averageCpc": 242760000,
+          "impressions": "7"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~a2VwYWwgYXBpaXYy",
+          "searchTerm": "kepal apiiv2"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "485680000",
+          "ctr": 1,
+          "averageCpc": 485680000,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~bGVvbmFyZGl0YSBhbCBwb3IgbWF5b3I",
+          "searchTerm": "leonardita al por mayor"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "765210000",
+          "ctr": 0.3333333333333333,
+          "averageCpc": 765210000,
+          "impressions": "3"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~bWljcm9mdXNpb24gZmVydGlsaXphbnRl",
+          "searchTerm": "microfusion fertilizante"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433713",
+          "name": "Reemplazo de Fertilizantes"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "209960000",
+          "ctr": 1,
+          "averageCpc": 209960000,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433713~YW1pbm90ZXJyYSBwbHVzIHppbmM",
+          "searchTerm": "aminoterra plus zinc"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433713",
+          "name": "Reemplazo de Fertilizantes"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "256690000",
+          "ctr": 1,
+          "averageCpc": 256690000,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433713~YXBpc2Jsb29t",
+          "searchTerm": "apisbloom"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433713",
+          "name": "Reemplazo de Fertilizantes"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "679340000",
+          "ctr": 1,
+          "averageCpc": 679340000,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433713~ZmVydGlsaXphbnRlcyBhZ3JpY29sYXMgcHJlY2lvcw",
+          "searchTerm": "fertilizantes agricolas precios"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433713",
+          "name": "Reemplazo de Fertilizantes"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "98840000",
+          "ctr": 0.3333333333333333,
+          "averageCpc": 98840000,
+          "impressions": "3"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433713~ZmVydGlsaXphcg",
+          "searchTerm": "fertilizar"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433713",
+          "name": "Reemplazo de Fertilizantes"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "2024550000",
+          "ctr": 0.1111111111111111,
+          "averageCpc": 2024550000,
+          "impressions": "9"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433713~bGVvbmFyZGl0YSBmZXJ0aWxpemFudGU",
+          "searchTerm": "leonardita fertilizante"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433713",
+          "name": "Reemplazo de Fertilizantes"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "986820000",
+          "ctr": 0.5,
+          "averageCpc": 986820000,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433713~bnVydHVyZSBmZXJ0aWxpemFudGU",
+          "searchTerm": "nurture fertilizante"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433713",
+          "name": "Reemplazo de Fertilizantes"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "800196547",
+          "ctr": 0.022222222222222223,
+          "averageCpc": 800196547,
+          "impressions": "45"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433713~cml6b2JhY3Rlcg",
+          "searchTerm": "rizobacter"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "303110000",
+          "ctr": 0.16666666666666666,
+          "averageCpc": 303110000,
+          "impressions": "6"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433753~YmlvaW5zdW1vcw",
+          "searchTerm": "bioinsumos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "270850000",
+          "ctr": 0.3333333333333333,
+          "averageCpc": 270850000,
+          "impressions": "3"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433753~YmlvdGljYSBuMg",
+          "searchTerm": "biotica n2"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "338550000",
+          "ctr": 0.5,
+          "averageCpc": 338550000,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433753~Y3VhbCBlcyBlbCByaW5kZSBkZSBsYSBzb2phIHBvciBoZWN0YXJlYQ",
+          "searchTerm": "cual es el rinde de la soja por hectarea"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "288990000",
+          "ctr": 1,
+          "averageCpc": 288990000,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433753~Y3VsdGl2byBpbnRlbnNpdm8",
+          "searchTerm": "cultivo intensivo"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "334604572",
+          "ctr": 0.08333333333333333,
+          "averageCpc": 334604572,
+          "impressions": "12"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433753~ZmVuZGVyIGFncm8",
+          "searchTerm": "fender agro"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "561330000",
+          "ctr": 0.3333333333333333,
+          "averageCpc": 561330000,
+          "impressions": "3"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433753~ZmVydGlsaXphbnRlIGZvc2ZvcmFkbw",
+          "searchTerm": "fertilizante fosforado"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "523020000",
+          "ctr": 0.16666666666666666,
+          "averageCpc": 523020000,
+          "impressions": "6"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433753~ZmVydGlsaXphbnRlcyBmb2xpYXJlcw",
+          "searchTerm": "fertilizantes foliares"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "279300000",
+          "ctr": 0.1,
+          "averageCpc": 279300000,
+          "impressions": "10"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433753~bGEgYWdyb3F1aW1pY2E",
+          "searchTerm": "la agroquimica"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "346970000",
+          "ctr": 1,
+          "averageCpc": 346970000,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433753~bnV0cmljacOzbiBkZSBjdWx0aXZvcw",
+          "searchTerm": "nutrición de cultivos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "76150000",
+          "ctr": 0.004629629629629629,
+          "averageCpc": 76150000,
+          "impressions": "216"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433753~c29qYQ",
+          "searchTerm": "soja"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433753",
+          "name": "Cultivos Específicos"
+        },
+        "metrics": {
+          "clicks": "1",
+          "conversions": 0,
+          "costMicros": "153200000",
+          "ctr": 0.013513513513513514,
+          "averageCpc": 153200000,
+          "impressions": "74"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433753~dmVyZGFkZXJv",
+          "searchTerm": "verdadero"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~MTAgMTAgNDA",
+          "searchTerm": "10 10 40"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~MTAgMjAgMTAgZmVydGlsaXphbnRl",
+          "searchTerm": "10 20 10 fertilizante"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "72"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~MjAgMjAgMjAgbWFzIHNpZXRl",
+          "searchTerm": "20 20 20 mas siete"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~MjAuMjAgMjAgZmVydGlsaXplcg",
+          "searchTerm": "20.20 20 fertilizer"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWJvbm8",
+          "searchTerm": "abono"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWJvbm8gY29tcHVlc3Rv",
+          "searchTerm": "abono compuesto"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWJvbm8gZGUgZXN0aWVyY29sIGRlIHZhY2E",
+          "searchTerm": "abono de estiercol de vaca"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWJvbm8gaGlkcm9jb21wbGV4",
+          "searchTerm": "abono hidrocomplex"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWJvbm8gbmtz",
+          "searchTerm": "abono nks"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWJvbm8gb3JnYW5pY28gcGFyYSBwbGFudGFz",
+          "searchTerm": "abono organico para plantas"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWJvbm8gb3Jnw6FuaWNvcw",
+          "searchTerm": "abono orgánicos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "4"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWJvbm8gcGFyYSBidWxib3M",
+          "searchTerm": "abono para bulbos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWJvbm8gcGFyYSBjYW1lbGlhcw",
+          "searchTerm": "abono para camelias"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWJvbm8gdHJpcGxlIDE1IHBhcmEgcXVlIHNpcnZl",
+          "searchTerm": "abono triple 15 para que sirve"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWJvbm8gdXJlYQ",
+          "searchTerm": "abono urea"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWJvbm9z",
+          "searchTerm": "abonos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "5"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWJvbm9zIGJpb2xvZ2ljb3M",
+          "searchTerm": "abonos biologicos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "15"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWJvbm9zIG9yZ2FuaWNvcw",
+          "searchTerm": "abonos organicos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWJvbm9zIG9yZ8Ohbmljbw",
+          "searchTerm": "abonos orgánico"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "6"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWJvbm9zIG9yZ8Ohbmljb3M",
+          "searchTerm": "abonos orgánicos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWJvbm9zIHZlcmRlcw",
+          "searchTerm": "abonos verdes"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWNpZG8gZm9zZm9yaWNvIGNvbW8gZmVydGlsaXphbnRl",
+          "searchTerm": "acido fosforico como fertilizante"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWNpZG8gZ2liZXJlbGljbyBmdW5jaW9u",
+          "searchTerm": "acido giberelico funcion"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWNpZG8gc2FsaWNpbGljbyBlbiBwbGFudGFz",
+          "searchTerm": "acido salicilico en plantas"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWNpZG9zIGh1bWljb3M",
+          "searchTerm": "acidos humicos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWNpZG9zIGh1bWljb3MgeSBmdWx2aWNvcw",
+          "searchTerm": "acidos humicos y fulvicos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWN0aXZvbCBwYXJhIHF1ZSBzaXJ2ZQ",
+          "searchTerm": "activol para que sirve"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWRhbWE",
+          "searchTerm": "adama"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "3"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWRlY29hZ3Jv",
+          "searchTerm": "adecoagro"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWdyZWZlcnQgYXIgc2E",
+          "searchTerm": "agrefert ar sa"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWdyaWN1bHR1cmE",
+          "searchTerm": "agricultura"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWdyaWN1bHR1cmEgYmlvZGluYW1pY2E",
+          "searchTerm": "agricultura biodinamica"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWdyaWN1bHR1cmEgaGlkcm9ww7NuaWNh",
+          "searchTerm": "agricultura hidropónica"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWdyaWN1bHR1cmEgb3JnYW5pY2E",
+          "searchTerm": "agricultura organica"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWdyaWN1bHR1cmEgcmVnZW5lcmF0aXZhIHF1ZSBlcw",
+          "searchTerm": "agricultura regenerativa que es"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWdyaWN1bHR1cmEgdmVydGljYWw",
+          "searchTerm": "agricultura vertical"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWdyb2ZvcmVzdGVyaWE",
+          "searchTerm": "agroforesteria"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWdyb2Z5",
+          "searchTerm": "agrofy"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWdyb2dlbmlhIGJpb3RlY2g",
+          "searchTerm": "agrogenia biotech"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWdyb2luc3Vtb3M",
+          "searchTerm": "agroinsumos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWdyb21peA",
+          "searchTerm": "agromix"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWdyb3F1aW1pY29zIGVuIGFyZ2VudGluYQ",
+          "searchTerm": "agroquimicos en argentina"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWdyb3F1w61taWNvcyBlbiBhcmdlbnRpbmE",
+          "searchTerm": "agroquímicos en argentina"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWd1YSBjb24gYXp1Y2FyIHBhcmEgbGFzIHBsYW50YXM",
+          "searchTerm": "agua con azucar para las plantas"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWd1YSBkZSBhcnJveiBwYXJhIGxhcyBwbGFudGFzIHBhcmEgcXVlIHNpcnZl",
+          "searchTerm": "agua de arroz para las plantas para que sirve"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWd1YSBkZSBsZWd1bWJyZXMgcGFyYSBwbGFudGFz",
+          "searchTerm": "agua de legumbres para plantas"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWxnYSBncm93IHBsYWdyb24",
+          "searchTerm": "alga grow plagron"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWxnYSBncm93IHBsYWdyb24gZG9zaXM",
+          "searchTerm": "alga grow plagron dosis"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWxnYSBtaWMgYmlvYml6eg",
+          "searchTerm": "alga mic biobizz"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWxnYXZhbGxl",
+          "searchTerm": "algavalle"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWxpZXR0ZQ",
+          "searchTerm": "aliette"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWxzIGZvc2Zvcm8gbGlxdWlkbw",
+          "searchTerm": "als fosforo liquido"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YWx0ZXJuYXRpdmFzIGEgbG9zIGFncm9xdWltaWNvcw",
+          "searchTerm": "alternativas a los agroquimicos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YW1hem9uaWEgbWljb3JyaXphcw",
+          "searchTerm": "amazonia micorrizas"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YW1hem9uaWEgbmFtYXN0ZQ",
+          "searchTerm": "amazonia namaste"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YW1pbm8gZmljaGEgdGVjbmljYQ",
+          "searchTerm": "amino ficha tecnica"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YW1pbm9maXNo",
+          "searchTerm": "aminofish"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YW1pbm9xdWVsYW50",
+          "searchTerm": "aminoquelant"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "5"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YW5kcm9lc3RlcmlsaWRhZCBlbiBwbGFudGFz",
+          "searchTerm": "androesterilidad en plantas"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YW7DoWxpc2lzIGRlIHN1ZWxv",
+          "searchTerm": "análisis de suelo"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YXBsaWNhY2lvbiBkZSBmb3Nmb3Jv",
+          "searchTerm": "aplicacion de fosforo"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YXBsaWNhY2nDs24gZGUgbGFzIGhvcm1vbmFzIHZlZ2V0YWxlcyBlbiBsYSBhZ3JpY3VsdHVyYQ",
+          "searchTerm": "aplicación de las hormonas vegetales en la agricultura"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YXBwbGF1ZA",
+          "searchTerm": "applaud"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YXJlYSBmb2xpYXI",
+          "searchTerm": "area foliar"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "10"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YXV4aW5hcw",
+          "searchTerm": "auxinas"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YXV4aW5hcyBwYXJhIHBsYW50YXM",
+          "searchTerm": "auxinas para plantas"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YXpva29wIGtvcHBlcnQ",
+          "searchTerm": "azokop koppert"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "9"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YXpvbGx1bSBoIGJpbw",
+          "searchTerm": "azollum h bio"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YXpvc3BpcmlsbHVtIGFyZ2VudGluZW5zZQ",
+          "searchTerm": "azospirillum argentinense"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YXpvc3BpcmlsbHVtIHJpem9iYWN0ZXI",
+          "searchTerm": "azospirillum rizobacter"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YXpvdG9iYWN0ZXI",
+          "searchTerm": "azotobacter"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YXpvdG9iYWN0ZXIgZmlqYWRvciBkZSBuaXRyw7NnZW5v",
+          "searchTerm": "azotobacter fijador de nitrógeno"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YXp1ZmVydGls",
+          "searchTerm": "azufertil"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YXp1ZnJlIGVuIGVsIHN1ZWxv",
+          "searchTerm": "azufre en el suelo"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YXp1ZnJlIGVuIG1haXo",
+          "searchTerm": "azufre en maiz"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmFjaWxsdXMgbXljb2lkZXM",
+          "searchTerm": "bacillus mycoides"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmFjaWxsdXMgc3VidGlsaXM",
+          "searchTerm": "bacillus subtilis"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmFjaWxsdXMgc3VidGlsaXMgeSB0cmljaG9kZXJtYQ",
+          "searchTerm": "bacillus subtilis y trichoderma"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmFjc29pbA",
+          "searchTerm": "bacsoil"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmFjdGVyaWEgZmlqYWRvcmEgZGUgbml0cm9nZW5v",
+          "searchTerm": "bacteria fijadora de nitrogeno"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmFjdGVyaWFzIGRlbCBuaXRyw7NnZW5v",
+          "searchTerm": "bacterias del nitrógeno"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmFjdGVyaWFzIGZpamFkb3JhcyBkZSBuaXRyb2dlbm8gZW4gZWwgc3VlbG8",
+          "searchTerm": "bacterias fijadoras de nitrogeno en el suelo"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "3"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmFjdGVyaWFzIGZpamFkb3JhcyBkZSBuaXRyw7NnZW5v",
+          "searchTerm": "bacterias fijadoras de nitrógeno"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmFjdGVyaWFzIGZpamFkb3JhcyBkZSBuaXRyw7NnZW5vIHBkZg",
+          "searchTerm": "bacterias fijadoras de nitrógeno pdf"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmFjdGVyaWFzIGZpeGFkb3JhcyBkZSBuaXRyb2fDqm5pbw",
+          "searchTerm": "bacterias fixadoras de nitrogênio"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmFjdGVyaWFzIHF1ZSBjYXB0YW4gZWwgbml0csOzZ2VubyBkZSBsYSBhdG3Ds3NmZXJh",
+          "searchTerm": "bacterias que captan el nitrógeno de la atmósfera"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmFjdGVyaWFzIHF1ZSBmaWphbiBlbCBuaXRyb2dlbm8",
+          "searchTerm": "bacterias que fijan el nitrogeno"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmFjdGVyaWFzIHNvbHViaWxpemFkb3JhcyBkZSBmb3Nmb3Jv",
+          "searchTerm": "bacterias solubilizadoras de fosforo"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmFzYWZlciBwbHVz",
+          "searchTerm": "basafer plus"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmFzZiBhcmdlbnRpbmEgcyBh",
+          "searchTerm": "basf argentina s a"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmFzZm9saWFyIGNhYiBwbHVz",
+          "searchTerm": "basfoliar cab plus"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmFzaWZvcw",
+          "searchTerm": "basifos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmVuZWZpY2lvcyBkZSBsb3MgYWdyb3F1aW1pY29z",
+          "searchTerm": "beneficios de los agroquimicos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvIGF0dW11cyBicmFzaWw",
+          "searchTerm": "bio atumus brasil"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "3"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvIGZlcnRpbGl6YW50ZQ",
+          "searchTerm": "bio fertilizante"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvIGZlcnRpbGl6YW50ZSBvcmfDoW5pY28",
+          "searchTerm": "bio fertilizante orgánico"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "3"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvIGZlcnRpbGl6YW50ZXM",
+          "searchTerm": "bio fertilizantes"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvIGZsb3Jlcw",
+          "searchTerm": "bio flores"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvIHJlZ2VuZXJhY2nDs24gZGUgc3VlbG9z",
+          "searchTerm": "bio regeneración de suelos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvNCBmZXJ0aWxpemFudGU",
+          "searchTerm": "bio4 fertilizante"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvYWc",
+          "searchTerm": "bioag"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvYWdnaWwgYXJnZW50aW5hIHMgYQ",
+          "searchTerm": "bioaggil argentina s a"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "7"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvYWt0aXZl",
+          "searchTerm": "bioaktive"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvYXNpcyBiaW90cm9w",
+          "searchTerm": "bioasis biotrop"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvYml6eiB0cnk",
+          "searchTerm": "biobizz try"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvYml6eiB0cnkgcGFjayBvdXRkb29y",
+          "searchTerm": "biobizz try pack outdoor"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvYml6eiB0cnlwYWNrIG91dGRvb3I",
+          "searchTerm": "biobizz trypack outdoor"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvYm9vc3Q",
+          "searchTerm": "bioboost"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvY2FsZGEgYmlvdHJvcA",
+          "searchTerm": "biocalda biotrop"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvY2FubmEgYmlvIGZsb3Jlcw",
+          "searchTerm": "biocanna bio flores"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "3"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvY2VyZXM",
+          "searchTerm": "bioceres"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvY2hhcg",
+          "searchTerm": "biochar"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZGluw6FtaWNhIGFncmljdWx0dXJh",
+          "searchTerm": "biodinámica agricultura"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZXN0aW11bGFudGVz",
+          "searchTerm": "bioestimulantes"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "3"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZmVydCBndGc",
+          "searchTerm": "biofert gtg"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZmVydCBndGcgeA",
+          "searchTerm": "biofert gtg x"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZmVydCBzdA",
+          "searchTerm": "biofert st"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZmVydGls",
+          "searchTerm": "biofertil"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "10"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZmVydGlsaXphbnRl",
+          "searchTerm": "biofertilizante"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZmVydGlsaXphbnRlIGFlcsOzYmljbw",
+          "searchTerm": "biofertilizante aeróbico"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZmVydGlsaXphbnRlIGNhc2Vybw",
+          "searchTerm": "biofertilizante casero"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZmVydGlsaXphbnRlIGxpcXVpZG8",
+          "searchTerm": "biofertilizante liquido"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZmVydGlsaXphbnRlcyBlamVtcGxvcw",
+          "searchTerm": "biofertilizantes ejemplos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZmVydGlsaXphbnRlcyBlbiBhcmdlbnRpbmE",
+          "searchTerm": "biofertilizantes en argentina"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZmVydGlsaXphbnRlcyBlbiBsYSBhZ3JpY3VsdHVyYQ",
+          "searchTerm": "biofertilizantes en la agricultura"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "14"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZmVydGlsaXphbnRlcyBvcmfDoW5pY29z",
+          "searchTerm": "biofertilizantes orgánicos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZml0IGlubm92YWs",
+          "searchTerm": "biofit innovak"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZm9z",
+          "searchTerm": "biofos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZnVzaW9uIGZtYw",
+          "searchTerm": "biofusion fmc"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvZ3Jvdw",
+          "searchTerm": "biogrow"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "5"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvaW5zdW1vcw",
+          "searchTerm": "bioinsumos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvaW5zdW1vcyBxdWUgZXM",
+          "searchTerm": "bioinsumos que es"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvbA",
+          "searchTerm": "biol"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvbCBkZSBwZXNjYWRv",
+          "searchTerm": "biol de pescado"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvbCBmZXJ0aWxpemFudGUgb3Jnw6FuaWNv",
+          "searchTerm": "biol fertilizante orgánico"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvbmV0IHNybA",
+          "searchTerm": "bionet srl"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvcGx1cyAz",
+          "searchTerm": "bioplus 3"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "6"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvcG93ZXIgYmFyZW5icnVn",
+          "searchTerm": "biopower barenbrug"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvcmFrZQ",
+          "searchTerm": "biorake"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvcmVnZW5lcmFjaW9uIGRlIHN1ZWxvcw",
+          "searchTerm": "bioregeneracion de suelos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvcmdhbnV0c2E",
+          "searchTerm": "biorganutsa"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Ymlvc29sYXJpemFjacOzbiBzdWVsb3M",
+          "searchTerm": "biosolarización suelos"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Ymlvc3Vt",
+          "searchTerm": "biosum"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvdGVjbm9sb2dpYSB2ZWdldGFs",
+          "searchTerm": "biotecnologia vegetal"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvdGVjbm9sb2fDrWEgYWdyaWN1bHR1cmE",
+          "searchTerm": "biotecnología agricultura"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvdGVjbm9sb2fDrWEgZW4gcGxhbnRhcw",
+          "searchTerm": "biotecnología en plantas"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvdHJvcA",
+          "searchTerm": "biotrop"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvdHJvcCBhcmdlbnRpbmE",
+          "searchTerm": "biotrop argentina"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmlvenltZSB1cGw",
+          "searchTerm": "biozyme upl"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Yml1cmV0IHVyZWE",
+          "searchTerm": "biuret urea"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YmxhdWtvcm4",
+          "searchTerm": "blaukorn"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Ymx1ZSBu",
+          "searchTerm": "blue n"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Ymx1ZSBuIGNvcnRldmE",
+          "searchTerm": "blue n corteva"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Ym9jYWNoaQ",
+          "searchTerm": "bocachi"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "3"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Ym9jYXNoaQ",
+          "searchTerm": "bocashi"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "4"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Ym9jYXNoaSBsaXF1aWRv",
+          "searchTerm": "bocashi liquido"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "3"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Ym9jYXNoaSBwcmVjaW8",
+          "searchTerm": "bocashi precio"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Ym9rYXNoaQ",
+          "searchTerm": "bokashi"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Ym9tYmFyZGllciBwcm9kdWN0byBhZ3JpY29sYQ",
+          "searchTerm": "bombardier producto agricola"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Ym9yYXggcGxhbnRhcw",
+          "searchTerm": "borax plantas"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YnVlbmFzIHByw6FjdGljYXMgYWdyw61jb2xhcw",
+          "searchTerm": "buenas prácticas agrícolas"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "11"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~YnVuZ2U",
+          "searchTerm": "bunge"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Y2FiIGZlcnRpbGl6YW50ZQ",
+          "searchTerm": "cab fertilizante"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "5"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Y2FsIGFncmljb2xh",
+          "searchTerm": "cal agricola"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Y2FsIGFncmljb2xhIGVuIGFyZ2VudGluYQ",
+          "searchTerm": "cal agricola en argentina"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Y2FsY2lvIHNvbHVibGU",
+          "searchTerm": "calcio soluble"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "10"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Y2FsaWdlbmlh",
+          "searchTerm": "caligenia"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "3"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Y2FuIGZlcnRpbGl6YW50ZQ",
+          "searchTerm": "can fertilizante"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "1"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Y2FyaW5hdGE",
+          "searchTerm": "carinata"
+        }
+      },
+      {
+        "campaign": {
+          "resourceName": "customers/4055591741/campaigns/23781809885",
+          "name": "Biotica N2 - Búsqueda"
+        },
+        "adGroup": {
+          "resourceName": "customers/4055591741/adGroups/197314433673",
+          "name": "Bioinsumos y Biofertilizantes"
+        },
+        "metrics": {
+          "clicks": "0",
+          "conversions": 0,
+          "costMicros": "0",
+          "ctr": 0,
+          "impressions": "2"
+        },
+        "searchTermView": {
+          "resourceName": "customers/4055591741/searchTermViews/23781809885~197314433673~Y2FyaW5hdGEgcGFyYSBxdWUgc2lydmU",
+          "searchTerm": "carinata para que sirve"
+        }
+      }
+    ]
+  }
+}

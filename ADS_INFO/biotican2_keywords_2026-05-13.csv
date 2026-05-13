@@ -1,0 +1,44 @@
+palabra_clave,tipo,estado,campaña,grupo,impresiones,clicks,costo,conversiones,ctr_pct,cpc,costo_por_lead,ctr_estado,genera_trafico,convierte
+fertilizante biológico,BROAD,PAUSED,Biotica N2 - Búsqueda,Bioinsumos y Biofertilizantes,2425,22,8360.374305,0.0,0.9072164948453608,380.01701386363635,,bajo,True,False
+bioinsumo soja,BROAD,PAUSED,Biotica N2 - Búsqueda,Cultivos Específicos,3288,20,7392.824572,1.0,0.6082725060827251,369.64122860000003,7392.824572,bajo,True,True
+fertilizante biológico,PHRASE,ENABLED,Biotica N2 - Búsqueda,Bioinsumos y Biofertilizantes,618,11,11392.652905,1.0,1.779935275080906,1035.6957186363636,11392.652905,bajo,True,True
+fertilizante sustentable,BROAD,PAUSED,Biotica N2 - Búsqueda,Reemplazo de Fertilizantes,1303,9,3870.837038,0.0,0.6907137375287797,430.0930042222222,,bajo,True,False
+fertilizante sustentable,PHRASE,ENABLED,Biotica N2 - Búsqueda,Reemplazo de Fertilizantes,351,7,7883.18,0.0,1.9943019943019942,1126.1685714285716,,bajo,True,False
+bacteria fijadora de nitrógeno,PHRASE,ENABLED,Biotica N2 - Búsqueda,Bioinsumos y Biofertilizantes,120,3,1196.81,0.0,2.5,398.93666666666667,,bajo,True,False
+bacteria fijadora de nitrógeno,EXACT,ENABLED,Biotica N2 - Búsqueda,Bioinsumos y Biofertilizantes,60,2,891.8,0.0,3.3333333333333335,445.9,,medio,True,False
+fertilizante biológico,EXACT,ENABLED,Biotica N2 - Búsqueda,Bioinsumos y Biofertilizantes,179,1,1270.61,0.0,0.5586592178770949,1270.61,,bajo,True,False
+biofertilizante agrícola,EXACT,ENABLED,Biotica N2 - Búsqueda,Bioinsumos y Biofertilizantes,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+biofertilizante agrícola,BROAD,PAUSED,Biotica N2 - Búsqueda,Bioinsumos y Biofertilizantes,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+biofertilizante agrícola,PHRASE,ENABLED,Biotica N2 - Búsqueda,Bioinsumos y Biofertilizantes,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+bioinsumo para maíz,BROAD,PAUSED,Biotica N2 - Búsqueda,Bioinsumos y Biofertilizantes,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+bioinsumo para maíz,PHRASE,ENABLED,Biotica N2 - Búsqueda,Bioinsumos y Biofertilizantes,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+bioinsumo nitrógeno,PHRASE,ENABLED,Biotica N2 - Búsqueda,Bioinsumos y Biofertilizantes,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+bioinsumo nitrógeno,EXACT,ENABLED,Biotica N2 - Búsqueda,Bioinsumos y Biofertilizantes,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+bioinsumo para maíz,EXACT,ENABLED,Biotica N2 - Búsqueda,Bioinsumos y Biofertilizantes,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+bioinsumo nitrógeno,BROAD,PAUSED,Biotica N2 - Búsqueda,Bioinsumos y Biofertilizantes,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+fertilizante sustentable,EXACT,ENABLED,Biotica N2 - Búsqueda,Reemplazo de Fertilizantes,1,0,0.0,0.0,0.0,0.0,,bajo,False,False
+reducir fertilizante nitrogenado,BROAD,PAUSED,Biotica N2 - Búsqueda,Reemplazo de Fertilizantes,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+reemplazar nitrógeno cultivos,PHRASE,ENABLED,Biotica N2 - Búsqueda,Reemplazo de Fertilizantes,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+alternativa urea agricultura,BROAD,PAUSED,Biotica N2 - Búsqueda,Reemplazo de Fertilizantes,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+reducir fertilizante nitrogenado,PHRASE,ENABLED,Biotica N2 - Búsqueda,Reemplazo de Fertilizantes,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+alternativa urea agricultura,PHRASE,ENABLED,Biotica N2 - Búsqueda,Reemplazo de Fertilizantes,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+reducir fertilizante nitrogenado,EXACT,ENABLED,Biotica N2 - Búsqueda,Reemplazo de Fertilizantes,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+alternativa urea agricultura,EXACT,ENABLED,Biotica N2 - Búsqueda,Reemplazo de Fertilizantes,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+inoculante soja,EXACT,ENABLED,Biotica N2 - Búsqueda,Cultivos Específicos,17,0,0.0,0.0,0.0,0.0,,bajo,False,False
+inoculante soja,PHRASE,ENABLED,Biotica N2 - Búsqueda,Cultivos Específicos,76,0,0.0,0.0,0.0,0.0,,bajo,False,False
+bioinsumos soja,PHRASE,ENABLED,Biotica N2 - Búsqueda,Cultivos Específicos,1,0,0.0,0.0,0.0,0.0,,bajo,False,False
+bioinsumo trigo,BROAD,PAUSED,Biotica N2 - Búsqueda,Cultivos Específicos,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+biofertilizante soja,PHRASE,ENABLED,Biotica N2 - Búsqueda,Cultivos Específicos,2,0,0.0,0.0,0.0,0.0,,bajo,False,False
+biofertilizante soja,EXACT,ENABLED,Biotica N2 - Búsqueda,Cultivos Específicos,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+bioinsumo trigo,PHRASE,ENABLED,Biotica N2 - Búsqueda,Cultivos Específicos,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+bioinsumo trigo,EXACT,ENABLED,Biotica N2 - Búsqueda,Cultivos Específicos,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+bioinsumo maíz,PHRASE,ENABLED,Biotica N2 - Búsqueda,Cultivos Específicos,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+bioinsumo maíz,EXACT,ENABLED,Biotica N2 - Búsqueda,Cultivos Específicos,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+bioinsumo girasol,PHRASE,ENABLED,Biotica N2 - Búsqueda,Cultivos Específicos,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+bioinsumo girasol,EXACT,ENABLED,Biotica N2 - Búsqueda,Cultivos Específicos,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+bioinsumo maíz,BROAD,PAUSED,Biotica N2 - Búsqueda,Cultivos Específicos,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+bioinsumo girasol,BROAD,PAUSED,Biotica N2 - Búsqueda,Cultivos Específicos,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+bioinsumo soja,PHRASE,ENABLED,Biotica N2 - Búsqueda,Cultivos Específicos,2,0,0.0,0.0,0.0,0.0,,bajo,False,False
+bioinsumo soja,EXACT,ENABLED,Biotica N2 - Búsqueda,Cultivos Específicos,1,0,0.0,0.0,0.0,0.0,,bajo,False,False
+fijador de nitrógeno soja,PHRASE,ENABLED,Biotica N2 - Búsqueda,Cultivos Específicos,0,0,0.0,0.0,0.0,0.0,,bajo,False,False
+fijador de nitrógeno soja,EXACT,ENABLED,Biotica N2 - Búsqueda,Cultivos Específicos,0,0,0.0,0.0,0.0,0.0,,bajo,False,False

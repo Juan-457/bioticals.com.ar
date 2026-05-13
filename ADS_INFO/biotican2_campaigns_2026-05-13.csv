@@ -1,0 +1,4 @@
+campaña,estado,estado_principal,razones,estrategia,presupuesto_diario,impresiones,clicks,costo,conversiones,ctr_pct,cpc,costo_por_lead,ctr_estado
+Biotica N2 - Búsqueda,ENABLED,LIMITED,BUDGET_CONSTRAINED,TARGET_SPEND,2000.0,8444,75,42259.08882,2.0,0.8882046423495974,563.4545176,21129.54441,bajo
+Campaign #1,REMOVED,REMOVED,CAMPAIGN_REMOVED,MAXIMIZE_CONVERSIONS,2000.0,5751,175,16016.108927,0.0,3.0429490523387237,91.52062244,,medio
+Test_2,REMOVED,REMOVED,CAMPAIGN_REMOVED,TARGET_SPEND,2000.0,0,0,0.0,0.0,0.0,0.0,,bajo
