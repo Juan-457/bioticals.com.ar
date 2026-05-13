@@ -951,6 +951,20 @@ h1 span {
 
 .button-mint:hover { background: #68c977; transform: translateY(-1px); }
 
+.button-white {
+  background: #ffffff;
+  color: var(--forest);
+  font-weight: 700;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+}
+
+.button-white:hover {
+  background: var(--paper);
+  color: var(--forest-soft);
+  transform: translateY(-1px);
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.32);
+}
+
 .ensayos-map-wrap {
   position: relative;
   display: flex;
