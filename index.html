@@ -131,6 +131,71 @@
       </div>
     </section>
 
+    <section id="ensayos-mapa" class="section section-dark ensayos-section">
+      <div class="wrap ensayos-layout">
+        <div class="ensayos-copy">
+          <div class="eyebrow">Ensayos en campo</div>
+          <h2>Resultados reales de cada campaña.</h2>
+          <p>22 ensayos registrados en <a href="https://fauno.ai/ensayos/?company=Biotica" class="link-mint" target="_blank" rel="noopener">Fauno.ai</a> sobre trigo, maíz, soja y algodón en Buenos Aires, Santa Fe, Córdoba y Chaco, desde la campaña 2020/21 hasta la actual.</p>
+
+          <div class="ensayos-stats">
+            <div><strong>22</strong><span>ensayos</span></div>
+            <div><strong>4</strong><span>provincias</span></div>
+            <div><strong>4</strong><span>cultivos</span></div>
+            <div><strong>5</strong><span>campañas</span></div>
+          </div>
+
+          <p class="ensayos-legend-row">
+            <span class="dot-sample dot-sample-active" aria-hidden="true"></span> Ensayo activo &nbsp;&nbsp;
+            <span class="dot-sample" aria-hidden="true"></span> Ensayo finalizado
+          </p>
+
+          <a href="https://fauno.ai/ensayos/?company=Biotica" class="button button-mint" target="_blank" rel="noopener" data-track-click="map_fauno_cta">
+            Ver ensayos en Fauno
+          </a>
+        </div>
+
+        <div class="ensayos-map-wrap" role="img" aria-label="Mapa de Argentina con los 22 ensayos verificados de Biotica">
+          <svg id="argentina-svg" viewBox="0 0 260 430" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+            <path class="ar-fill" d="M56,0 L120,0 L146,0 L200,6 L241,63 L258,78 L207,107 L203,151 L211,169 L220,179 L209,203 L152,214 L114,258 L82,299 L80,343 L59,372 L25,376 L13,326 L25,276 L32,226 L51,163 L63,100 L70,38 Z"/>
+            <path class="ar-fill" d="M44,383 L63,379 L114,381 L129,394 L70,412 L51,408 Z"/>
+            <text class="ar-label" x="92" y="128">Cba.</text>
+            <text class="ar-label" x="148" y="82">Santa Fe</text>
+            <text class="ar-label" x="148" y="53">Chaco</text>
+            <text class="ar-label" x="139" y="188">Buenos Aires</text>
+            <!-- Chaco -->
+            <circle class="ar-dot" cx="174" cy="65" r="5" data-crop="Algodón" data-campaign="20/21"/>
+            <circle class="ar-dot" cx="173" cy="66" r="5" data-crop="Maíz" data-campaign="20/21"/>
+            <!-- Santa Fe -->
+            <circle class="ar-dot" cx="175" cy="94" r="5" data-crop="Trigo" data-campaign="22/23"/>
+            <circle class="ar-dot" cx="172" cy="107" r="5" data-crop="Trigo" data-campaign="22/23"/>
+            <circle class="ar-dot" cx="153" cy="115" r="5" data-crop="Trigo" data-campaign="21/22"/>
+            <circle class="ar-dot" cx="155" cy="119" r="5" data-crop="Trigo" data-campaign="22/23"/>
+            <circle class="ar-dot" cx="155" cy="118" r="5" data-crop="Trigo" data-campaign="22/23"/>
+            <!-- Córdoba -->
+            <circle class="ar-dot" cx="125" cy="114" r="5" data-crop="Trigo" data-campaign="21/22"/>
+            <!-- Buenos Aires -->
+            <circle class="ar-dot" cx="167" cy="149" r="5" data-crop="Trigo" data-campaign="25/26"/>
+            <circle class="ar-dot" cx="184" cy="147" r="5" data-crop="Trigo" data-campaign="25/26"/>
+            <circle class="ar-dot" cx="183" cy="153" r="5" data-crop="Soja de primera" data-campaign="21/22"/>
+            <circle class="ar-dot" cx="184" cy="153" r="5" data-crop="Trigo" data-campaign="21/22"/>
+            <circle class="ar-dot" cx="183" cy="153" r="5" data-crop="Trigo" data-campaign="25/26"/>
+            <circle class="ar-dot" cx="184" cy="154" r="5" data-crop="Trigo" data-campaign="22/23"/>
+            <circle class="ar-dot" cx="185" cy="154" r="5" data-crop="Maíz" data-campaign="21/22"/>
+            <circle class="ar-dot" cx="185" cy="153" r="5" data-crop="Maíz" data-campaign="20/21"/>
+            <circle class="ar-dot" cx="179" cy="171" r="5" data-crop="Maíz" data-campaign="22/23"/>
+            <circle class="ar-dot" cx="180" cy="171" r="5" data-crop="Trigo" data-campaign="21/22"/>
+            <circle class="ar-dot" cx="201" cy="198" r="5" data-crop="Maíz" data-campaign="21/22"/>
+            <circle class="ar-dot" cx="201" cy="198" r="5" data-crop="Trigo" data-campaign="21/22"/>
+            <circle class="ar-dot" cx="202" cy="197" r="5" data-crop="Trigo" data-campaign="21/22"/>
+            <!-- Ensayo activo 25/26 -->
+            <circle class="ar-dot ar-dot-active" cx="167" cy="151" r="6" data-crop="Trigo" data-campaign="25/26" data-active="true"/>
+          </svg>
+          <div id="map-tooltip" class="map-tooltip" role="tooltip" hidden></div>
+        </div>
+      </div>
+    </section>
+
     <section class="logos-strip">
       <div class="wrap logos-grid">
         <span>Disponibilidad según zona y cultivo</span>

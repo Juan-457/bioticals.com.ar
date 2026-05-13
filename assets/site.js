@@ -73,4 +73,39 @@
   track('page_view_biotica_n2', {
     event_label: 'landing_open'
   });
+
+  // Argentina map tooltips
+  var mapSvg = document.getElementById('argentina-svg');
+  var mapTooltip = document.getElementById('map-tooltip');
+  var mapWrap = mapSvg && mapSvg.parentElement;
+
+  if (mapSvg && mapTooltip && mapWrap) {
+    function showTooltip(dot, clientX, clientY) {
+      var crop = dot.getAttribute('data-crop') || '';
+      var campaign = dot.getAttribute('data-campaign') || '';
+      var active = dot.getAttribute('data-active') === 'true';
+      mapTooltip.innerHTML =
+        '<strong>' + crop + '</strong>' +
+        'Campaña ' + campaign + (active ? ' · <span style="color:var(--mint)">En curso</span>' : '');
+      mapTooltip.hidden = false;
+      var rect = mapWrap.getBoundingClientRect();
+      var tx = clientX - rect.left;
+      var ty = clientY - rect.top;
+      mapTooltip.style.left = Math.max(0, Math.min(tx - mapTooltip.offsetWidth / 2, rect.width - mapTooltip.offsetWidth)) + 'px';
+      mapTooltip.style.top = (ty - mapTooltip.offsetHeight - 14) + 'px';
+    }
+
+    mapSvg.querySelectorAll('.ar-dot').forEach(function (dot) {
+      dot.addEventListener('mouseenter', function (e) { showTooltip(dot, e.clientX, e.clientY); });
+      dot.addEventListener('mousemove', function (e) {
+        if (!mapTooltip.hidden) showTooltip(dot, e.clientX, e.clientY);
+      });
+      dot.addEventListener('mouseleave', function () { mapTooltip.hidden = true; });
+      dot.addEventListener('focus', function () {
+        var r = dot.getBoundingClientRect();
+        showTooltip(dot, r.left + r.width / 2, r.top);
+      });
+      dot.addEventListener('blur', function () { mapTooltip.hidden = true; });
+    });
+  }
 })();
