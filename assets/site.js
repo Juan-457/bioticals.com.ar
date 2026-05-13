@@ -54,55 +54,21 @@
     window.gtag('config', config.googleAdsId);
   }
 
-  if (config.formEndpoint) {
-    var leadForm = document.getElementById('lead-form');
-    if (leadForm) {
-      leadForm.setAttribute('action', config.formEndpoint);
-      var nextField = leadForm.querySelector('input[name="_next"]');
-      if (nextField) {
-        nextField.value = window.location.origin + window.location.pathname.replace(/index\.html$/, '') + 'thank-you.html';
-      }
-
-      leadForm.addEventListener('submit', function () {
-        var formData = new FormData(leadForm);
-        var hasPhone = !!String(formData.get('telefono') || '').trim();
-        var hasEmail = !!String(formData.get('email') || '').trim();
-
-        track('lead_form_submit', {
-          event_label: 'main_form',
-          has_phone: hasPhone,
-          has_email: hasEmail,
-          cultivo: String(formData.get('cultivo') || '').trim() || 'unknown',
-          zona: String(formData.get('zona') || '').trim() || 'unknown'
-        });
-
-        if (config.googleAdsId && config.adsLeadLabel && typeof window.gtag === 'function') {
-          window.gtag('event', 'conversion', {
-            send_to: config.googleAdsId + '/' + config.adsLeadLabel
-          });
-        }
-      });
-    }
-  }
+  var waNumber = config.whatsappNumber || '5491153358229';
+  var waText = encodeURIComponent('Hola Biotica, quiero información comercial de BIOTICA N2.');
+  var waUrl = 'https://wa.me/' + waNumber + '?text=' + waText;
 
   document.querySelectorAll('[data-track-click]').forEach(function (node) {
     node.addEventListener('click', function () {
       var label = node.getAttribute('data-track-click') || 'unknown_cta';
-      track('cta_click', {
-        event_label: label
-      });
+
+      if (label.indexOf('whatsapp') !== -1 || label.indexOf('wa') !== -1) {
+        track('whatsapp_click', { event_label: label });
+      } else {
+        track('cta_click', { event_label: label });
+      }
     });
   });
-
-  var wa = document.getElementById('whatsapp-direct');
-  if (wa && config.whatsappNumber) {
-    wa.href = 'https://wa.me/' + config.whatsappNumber + '?text=' + encodeURIComponent('Hola Biotica, quiero información comercial de BIOTICA N2.');
-    wa.addEventListener('click', function () {
-      track('whatsapp_click', {
-        event_label: 'direct_whatsapp'
-      });
-    });
-  }
 
   track('page_view_biotica_n2', {
     event_label: 'landing_open'
