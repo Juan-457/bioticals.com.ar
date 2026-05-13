@@ -853,7 +853,7 @@ h1 span {
 .ensayos-section {
   padding-block: clamp(72px, 8vw, 120px);
   background:
-    linear-gradient(180deg, rgba(16, 52, 38, 0.78) 0%, rgba(15, 45, 34, 0.85) 100%),
+    linear-gradient(180deg, rgba(16, 52, 38, 0.32) 0%, rgba(15, 45, 34, 0.45) 100%),
     url("../maiz.webp") center center / cover no-repeat fixed;
 }
 
@@ -1160,6 +1160,7 @@ h1 span {
   font-size: clamp(2rem, 3.6vw, 2.8rem);
   line-height: 1.05;
   margin-bottom: 28px;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.55);
 }
 
 .fauno-block {
