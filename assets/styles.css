@@ -200,11 +200,11 @@ a {
 .hero-value-list {
   display: flex;
   flex-wrap: wrap;
-  gap: clamp(16px, 3vw, 32px);
+  gap: clamp(12px, 2vw, 22px);
   align-items: center;
   background: rgba(10, 29, 20, 0.34);
-  padding: 18px 22px;
-  border-radius: 18px;
+  padding: 14px 18px;
+  border-radius: 16px;
   backdrop-filter: blur(8px);
   border: 1px solid rgba(123, 211, 137, 0.22);
   align-self: flex-start;
@@ -214,17 +214,17 @@ a {
 .hero-value-item {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   color: #f4f9e9;
-  font-size: clamp(0.9rem, 1.4vw, 1.2rem);
+  font-size: clamp(0.74rem, 0.95vw, 0.92rem);
   font-weight: 600;
-  line-height: 1.05;
+  line-height: 1.1;
   text-shadow: 0 3px 12px rgba(0, 0, 0, 0.38);
 }
 
 .hero-value-icon {
-  width: clamp(38px, 4.3vw, 54px);
-  height: clamp(38px, 4.3vw, 54px);
+  width: clamp(30px, 3.2vw, 40px);
+  height: clamp(30px, 3.2vw, 40px);
   display: inline-grid;
   place-items: center;
   flex: 0 0 auto;
@@ -232,7 +232,7 @@ a {
   border-radius: 999px;
   color: var(--mint);
   background: rgba(10, 29, 20, 0.2);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22);
 }
 
 .hero-value-icon svg {
