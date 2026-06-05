@@ -81,10 +81,24 @@ a {
 }
 
 .nav-cta {
-  padding: 12px 18px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px 8px 18px;
   border-radius: 999px;
-  background: var(--forest);
+  background: linear-gradient(135deg, #05813f 0%, #006b36 100%);
   color: white !important;
+  box-shadow: 0 12px 26px rgba(0, 107, 54, 0.24), inset 0 0 0 1px rgba(255, 255, 255, 0.18);
+}
+
+.nav-wa-ico {
+  width: 28px;
+  height: 28px;
+  padding: 6px;
+  border-radius: 999px;
+  background: #ffffff;
+  fill: #16b85e;
+  flex: 0 0 auto;
 }
 
 .hero {
@@ -363,13 +377,14 @@ h1 span {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 52px;
-  padding: 0 22px;
-  border-radius: 999px;
+  min-height: 54px;
+  padding: 0 24px;
+  border-radius: 16px;
   border: 1px solid transparent;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 1rem;
-  transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
+  letter-spacing: -0.01em;
+  transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease, border-color 0.16s ease;
 }
 
 .button:hover,
@@ -535,10 +550,12 @@ h1 span {
 }
 
 .button-wa {
-  background: #25D366;
-  color: white !important;
-  box-shadow: 0 12px 30px rgba(37, 211, 102, 0.35);
-  gap: 10px;
+  background: linear-gradient(135deg, #05a651 0%, #008043 100%);
+  color: #ffffff !important;
+  font-weight: 800;
+  gap: 12px;
+  border-color: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 14px 30px rgba(0, 107, 54, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
 .button-wa svg {
@@ -548,8 +565,20 @@ h1 span {
   flex-shrink: 0;
 }
 
+.button-wa .wa-ico {
+  width: 34px;
+  height: 34px;
+  padding: 8px;
+  border-radius: 999px;
+  background: #ffffff;
+  fill: #10b85a;
+  flex: 0 0 auto;
+}
+
 .button-wa:hover {
-  background: #1ebe5a;
+  background: linear-gradient(135deg, #12bd62 0%, #008b49 100%);
+  color: #ffffff !important;
+  box-shadow: 0 18px 38px rgba(0, 107, 54, 0.36), inset 0 1px 0 rgba(255, 255, 255, 0.28);
 }
 
 .wa-bubble {
@@ -972,7 +1001,8 @@ h1 span {
   align-items: center;
 }
 
-.fauno-embed-wrap {
+.fauno-embed-wrap,
+.fauno-map-card {
   position: relative;
   width: 100%;
   height: clamp(620px, 72vh, 980px);
@@ -984,13 +1014,21 @@ h1 span {
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
 }
 
-.fauno-embed-wrap iframe {
-  position: absolute;
-  inset: 0;
+
+.fauno-map-card {
+  height: clamp(360px, 44vw, 620px);
+  min-height: 360px;
+  padding: 14px;
+  background: #f5f2e8;
+}
+
+.fauno-map-image {
+  display: block;
   width: 100%;
   height: 100%;
-  border: 0;
-  background: #f5f2e8;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 16px;
 }
 
 .fauno-embed-link {
@@ -1439,6 +1477,11 @@ h1 span {
     height: 75vh;
   }
 
+  .fauno-map-card {
+    min-height: 360px;
+    height: clamp(360px, 62vw, 560px);
+  }
+
   .trust-band {
     grid-template-columns: 1fr;
     gap: 22px;
@@ -1466,6 +1509,12 @@ h1 span {
   .fauno-embed-wrap {
     min-height: 480px;
     height: 80vh;
+    border-radius: 16px;
+  }
+
+  .fauno-map-card {
+    min-height: 320px;
+    height: clamp(320px, 88vw, 480px);
     border-radius: 16px;
   }
 
